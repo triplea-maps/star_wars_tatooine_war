@@ -3172,7 +3172,7 @@
         <property name="Units Can Be Destroyed Instead Of Captured" value="true" editable="false">
             <boolean/>
         </property>
-        <property name="AI Bonus Income Percentage" value="5" editable="true">
+        <property name="AI Bonus Income Percentage" value="0" editable="true">
             <number min="-100" max="9999"/>
         </property>
         <property name="AI Bonus Income Flat Rate" value="0" editable="true">
