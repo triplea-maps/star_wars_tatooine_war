@@ -2431,7 +2431,7 @@
             <option name="production" value="1"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Bens Mesa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="isImpassible" value="true"/>
+            <option name="isImpassable" value="true"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Bestine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="4"/>
@@ -2509,13 +2509,13 @@
             <option name="production" value="1"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Glass Mountain" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="isImpassible" value="true"/>
+            <option name="isImpassable" value="true"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Grand Arena Flats" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Great Mesa Plateau" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="isImpassible" value="true"/>
+            <option name="isImpassable" value="true"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Guermessa A" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
@@ -2531,13 +2531,13 @@
             <option name="originalOwner" value="Corellian-Security-Force"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="High Ground" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="isImpassible" value="true"/>
+            <option name="isImpassable" value="true"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Highland Basin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Hubba Heights" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="isImpassible" value="true"/>
+            <option name="isImpassable" value="true"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Hutt Flats" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
@@ -2547,7 +2547,7 @@
             <option name="capital" value="Hutt-Cartel"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Jawa Heights" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="isImpassible" value="true"/>
+            <option name="isImpassable" value="true"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Jawa Mountain Fortress" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
@@ -2617,7 +2617,7 @@
             <option name="victoryCity" value="1"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Mospic High Range" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="isImpassible" value="true"/>
+            <option name="isImpassable" value="true"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Motesta" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
@@ -2642,7 +2642,7 @@
             <option name="originalOwner" value="Jedi-Order"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Old Caves" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="isImpassible" value="true"/>
+            <option name="isImpassable" value="true"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Pika Oasis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
@@ -2655,7 +2655,7 @@
             <option name="production" value="1"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Ridge" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="isImpassible" value="true"/>
+            <option name="isImpassable" value="true"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Sand People Enclave" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
