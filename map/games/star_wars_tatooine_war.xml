@@ -1,0 +1,3177 @@
+<?xml version="1.0"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+    <info name="Star Wars: Tatooine War" version="1.4.3"/>
+    <loader javaClass="games.strategy.triplea.TripleA"/>
+    <triplea minimumVersion="1.9"/>
+    <diceSides value="6"/>
+
+    <map>
+        <!-- Territory Definitions -->
+        <territory name="1" water="true"/>
+        <territory name="10" water="true"/>
+        <territory name="11" water="true"/>
+        <territory name="12" water="true"/>
+        <territory name="13" water="true"/>
+        <territory name="14" water="true"/>
+        <territory name="15" water="true"/>
+        <territory name="16" water="true"/>
+        <territory name="17" water="true"/>
+        <territory name="18" water="true"/>
+        <territory name="19" water="true"/>
+        <territory name="2" water="true"/>
+        <territory name="20" water="true"/>
+        <territory name="21" water="true"/>
+        <territory name="22" water="true"/>
+        <territory name="23" water="true"/>
+        <territory name="24" water="true"/>
+        <territory name="25" water="true"/>
+        <territory name="26" water="true"/>
+        <territory name="27" water="true"/>
+        <territory name="28" water="true"/>
+        <territory name="29" water="true"/>
+        <territory name="3" water="true"/>
+        <territory name="30" water="true"/>
+        <territory name="31" water="true"/>
+        <territory name="32" water="true"/>
+        <territory name="33" water="true"/>
+        <territory name="34" water="true"/>
+        <territory name="35" water="true"/>
+        <territory name="36" water="true"/>
+        <territory name="37" water="true"/>
+        <territory name="38" water="true"/>
+        <territory name="39" water="true"/>
+        <territory name="4" water="true"/>
+        <territory name="40" water="true"/>
+        <territory name="41" water="true"/>
+        <territory name="42" water="true"/>
+        <territory name="43" water="true"/>
+        <territory name="5" water="true"/>
+        <territory name="6" water="true"/>
+        <territory name="7" water="true"/>
+        <territory name="8" water="true"/>
+        <territory name="9" water="true"/>
+        <territory name="Allon Settlement"/>
+        <territory name="Anchorhead"/>
+        <territory name="Arch Canyon"/>
+        <territory name="Arnthout"/>
+        <territory name="B-omarr Flats"/>
+        <territory name="Badlands"/>
+        <territory name="Bantha Burrows"/>
+        <territory name="Bantha Plains"/>
+        <territory name="Bastion"/>
+        <territory name="Beggars Canyon"/>
+        <territory name="Bens Mesa"/>
+        <territory name="Bestine"/>
+        <territory name="Black Barrens"/>
+        <territory name="BlackSunPic" water="true"/>
+        <territory name="CSAPic" water="true"/>
+        <territory name="Cheenee Rift"/>
+        <territory name="Corellia"/>
+        <territory name="CorellianPic" water="true"/>
+        <territory name="Coruscant"/>
+        <territory name="Dannars Claim"/>
+        <territory name="Desolation Canyons"/>
+        <territory name="Douz Outpost"/>
+        <territory name="Dry Seas"/>
+        <territory name="Drydust Crescent"/>
+        <territory name="Eastern Dune Sea"/>
+        <territory name="Eidolon Base"/>
+        <territory name="Etti"/>
+        <territory name="Farm Lands"/>
+        <territory name="Fondor"/>
+        <territory name="Forbidden Pass"/>
+        <territory name="Fort Tusken"/>
+        <territory name="Gafsa Canyon"/>
+        <territory name="Galaxy Left" water="true"/>
+        <territory name="Galaxy Right" water="true"/>
+        <territory name="Ghomrassen A"/>
+        <territory name="Ghomrassen B"/>
+        <territory name="Ghomrassen C"/>
+        <territory name="Glass Mountain"/>
+        <territory name="Grand Arena Flats"/>
+        <territory name="Great Mesa Plateau"/>
+        <territory name="Guermessa A"/>
+        <territory name="Guermessa B"/>
+        <territory name="Guermessa C"/>
+        <territory name="Hidden Droid Factory"/>
+        <territory name="High Ground"/>
+        <territory name="Highland Basin"/>
+        <territory name="Hubba Heights"/>
+        <territory name="Hutt Flats"/>
+        <territory name="Hutt Palace"/>
+        <territory name="HuttPic" water="true"/>
+        <territory name="ImperialPic" water="true"/>
+        <territory name="Jawa Heights"/>
+        <territory name="Jawa Mountain Fortress"/>
+        <territory name="JediPic" water="true"/>
+        <territory name="Jundland Wastes"/>
+        <territory name="Junktown"/>
+        <territory name="Krayt Graveyard"/>
+        <territory name="Lost Ghorfas City"/>
+        <territory name="Lowland Basin"/>
+        <territory name="Mandalore"/>
+        <territory name="MandaloriansPic" water="true"/>
+        <territory name="Metameur"/>
+        <territory name="Mos Eisley"/>
+        <territory name="Mos Entha"/>
+        <territory name="Mos Espa"/>
+        <territory name="Mos Gamos"/>
+        <territory name="Mos Ila"/>
+        <territory name="Mos Nytram"/>
+        <territory name="Mos Osnoe"/>
+        <territory name="Mos Shuuta"/>
+        <territory name="Mos Taike"/>
+        <territory name="Mos Zabu"/>
+        <territory name="Mospic High Range"/>
+        <territory name="Motesta"/>
+        <territory name="Motesta Oasis"/>
+        <territory name="Mushroom Mesa"/>
+        <territory name="Naboo"/>
+        <territory name="NewRepublicPic" water="true"/>
+        <territory name="Northern Dune Sea"/>
+        <territory name="Oasis South"/>
+        <territory name="Old Caves"/>
+        <territory name="Pika Oasis"/>
+        <territory name="Pirate Base"/>
+        <territory name="Pit of Carkoon"/>
+        <territory name="Ridge"/>
+        <territory name="Sand People Enclave"/>
+        <territory name="Southern Dune Sea"/>
+        <territory name="Southern Reach"/>
+        <territory name="The Wound"/>
+        <territory name="Tosche Station"/>
+        <territory name="Tusken Canyon"/>
+        <territory name="Tusken March"/>
+        <territory name="Wayfar"/>
+        <territory name="Western Dune Sea"/>
+        <territory name="Xelric Draw"/>
+        <!-- Territory Connections -->
+        <connection t1="1" t2="2"/>
+        <connection t1="1" t2="Mandalore"/>
+        <connection t1="10" t2="11"/>
+        <connection t1="10" t2="Etti"/>
+        <connection t1="11" t2="13"/>
+        <connection t1="11" t2="9"/>
+        <connection t1="12" t2="Eidolon Base"/>
+        <connection t1="12" t2="13"/>
+        <connection t1="12" t2="17"/>
+        <connection t1="12" t2="Bantha Plains"/>
+        <connection t1="12" t2="8"/>
+        <connection t1="13" t2="14"/>
+        <connection t1="13" t2="16"/>
+        <connection t1="13" t2="9"/>
+        <connection t1="14" t2="15"/>
+        <connection t1="14" t2="16"/>
+        <connection t1="15" t2="Coruscant"/>
+        <connection t1="16" t2="Guermessa A"/>
+        <connection t1="16" t2="17"/>
+        <connection t1="16" t2="19"/>
+        <connection t1="16" t2="Guermessa C"/>
+        <connection t1="16" t2="Guermessa B"/>
+        <connection t1="17" t2="Eidolon Base"/>
+        <connection t1="17" t2="18"/>
+        <connection t1="17" t2="Allon Settlement"/>
+        <connection t1="17" t2="Dannars Claim"/>
+        <connection t1="18" t2="23"/>
+        <connection t1="18" t2="19"/>
+        <connection t1="18" t2="Krayt Graveyard"/>
+        <connection t1="18" t2="Mos Eisley"/>
+        <connection t1="19" t2="22"/>
+        <connection t1="19" t2="20"/>
+        <connection t1="19" t2="Guermessa C"/>
+        <connection t1="19" t2="Guermessa B"/>
+        <connection t1="2" t2="3"/>
+        <connection t1="2" t2="43"/>
+        <connection t1="20" t2="22"/>
+        <connection t1="20" t2="21"/>
+        <connection t1="21" t2="Fondor"/>
+        <connection t1="22" t2="23"/>
+        <connection t1="22" t2="26"/>
+        <connection t1="23" t2="27"/>
+        <connection t1="23" t2="Oasis South"/>
+        <connection t1="23" t2="Eastern Dune Sea"/>
+        <connection t1="24" t2="25"/>
+        <connection t1="24" t2="Naboo"/>
+        <connection t1="25" t2="26"/>
+        <connection t1="26" t2="27"/>
+        <connection t1="27" t2="Oasis South"/>
+        <connection t1="27" t2="28"/>
+        <connection t1="27" t2="Southern Reach"/>
+        <connection t1="28" t2="29"/>
+        <connection t1="28" t2="Southern Reach"/>
+        <connection t1="29" t2="Hutt Palace"/>
+        <connection t1="29" t2="30"/>
+        <connection t1="3" t2="4"/>
+        <connection t1="3" t2="Ghomrassen A"/>
+        <connection t1="3" t2="43"/>
+        <connection t1="30" t2="35"/>
+        <connection t1="30" t2="Mos Shuuta"/>
+        <connection t1="30" t2="31"/>
+        <connection t1="31" t2="33"/>
+        <connection t1="31" t2="34"/>
+        <connection t1="32" t2="33"/>
+        <connection t1="32" t2="Corellia"/>
+        <connection t1="34" t2="35"/>
+        <connection t1="34" t2="37"/>
+        <connection t1="35" t2="Hidden Droid Factory"/>
+        <connection t1="35" t2="36"/>
+        <connection t1="36" t2="37"/>
+        <connection t1="36" t2="41"/>
+        <connection t1="36" t2="Mos Gamos"/>
+        <connection t1="36" t2="Western Dune Sea"/>
+        <connection t1="37" t2="39"/>
+        <connection t1="37" t2="40"/>
+        <connection t1="38" t2="Bastion"/>
+        <connection t1="38" t2="39"/>
+        <connection t1="39" t2="40"/>
+        <connection t1="4" t2="5"/>
+        <connection t1="4" t2="Pirate Base"/>
+        <connection t1="40" t2="41"/>
+        <connection t1="40" t2="43"/>
+        <connection t1="41" t2="Douz Outpost"/>
+        <connection t1="41" t2="42"/>
+        <connection t1="41" t2="Western Dune Sea"/>
+        <connection t1="42" t2="6"/>
+        <connection t1="42" t2="Ghomrassen C"/>
+        <connection t1="42" t2="Jawa Mountain Fortress"/>
+        <connection t1="42" t2="43"/>
+        <connection t1="43" t2="Ghomrassen C"/>
+        <connection t1="5" t2="Ghomrassen B"/>
+        <connection t1="5" t2="6"/>
+        <connection t1="6" t2="Fort Tusken"/>
+        <connection t1="6" t2="Ghomrassen B"/>
+        <connection t1="6" t2="7"/>
+        <connection t1="6" t2="Tusken March"/>
+        <connection t1="7" t2="Beggars Canyon"/>
+        <connection t1="7" t2="8"/>
+        <connection t1="7" t2="Mos Osnoe"/>
+        <connection t1="8" t2="9"/>
+        <connection t1="8" t2="Northern Dune Sea"/>
+        <connection t1="8" t2="Mos Osnoe"/>
+        <connection t1="Allon Settlement" t2="Eidolon Base"/>
+        <connection t1="Allon Settlement" t2="Drydust Crescent"/>
+        <connection t1="Allon Settlement" t2="Bantha Burrows"/>
+        <connection t1="Allon Settlement" t2="Dannars Claim"/>
+        <connection t1="Anchorhead" t2="Sand People Enclave"/>
+        <connection t1="Anchorhead" t2="Farm Lands"/>
+        <connection t1="Anchorhead" t2="Tosche Station"/>
+        <connection t1="Arch Canyon" t2="Beggars Canyon"/>
+        <connection t1="Arch Canyon" t2="Mos Espa"/>
+        <connection t1="Arch Canyon" t2="Grand Arena Flats"/>
+        <connection t1="Arnthout" t2="Bestine"/>
+        <connection t1="Arnthout" t2="Highland Basin"/>
+        <connection t1="Arnthout" t2="Lowland Basin"/>
+        <connection t1="Arnthout" t2="The Wound"/>
+        <connection t1="B-omarr Flats" t2="Bantha Burrows"/>
+        <connection t1="B-omarr Flats" t2="Pit of Carkoon"/>
+        <connection t1="B-omarr Flats" t2="Northern Dune Sea"/>
+        <connection t1="B-omarr Flats" t2="Mushroom Mesa"/>
+        <connection t1="Badlands" t2="Fort Tusken"/>
+        <connection t1="Badlands" t2="Lost Ghorfas City"/>
+        <connection t1="Badlands" t2="Dry Seas"/>
+        <connection t1="Badlands" t2="Desolation Canyons"/>
+        <connection t1="Badlands" t2="Hutt Flats"/>
+        <connection t1="Badlands" t2="Tusken March"/>
+        <connection t1="Bantha Burrows" t2="Eidolon Base"/>
+        <connection t1="Bantha Burrows" t2="Pit of Carkoon"/>
+        <connection t1="Bantha Plains" t2="Eidolon Base"/>
+        <connection t1="Bantha Plains" t2="Pit of Carkoon"/>
+        <connection t1="Bantha Plains" t2="Northern Dune Sea"/>
+        <connection t1="Beggars Canyon" t2="Mos Espa"/>
+        <connection t1="Beggars Canyon" t2="Mos Osnoe"/>
+        <connection t1="Bestine" t2="Sand People Enclave"/>
+        <connection t1="Bestine" t2="Drydust Crescent"/>
+        <connection t1="Bestine" t2="Motesta Oasis"/>
+        <connection t1="Bestine" t2="Lowland Basin"/>
+        <connection t1="Black Barrens" t2="Hidden Droid Factory"/>
+        <connection t1="Black Barrens" t2="Gafsa Canyon"/>
+        <connection t1="Black Barrens" t2="Mos Gamos"/>
+        <connection t1="Black Barrens" t2="Western Dune Sea"/>
+        <connection t1="Cheenee Rift" t2="Forbidden Pass"/>
+        <connection t1="Cheenee Rift" t2="Southern Dune Sea"/>
+        <connection t1="Cheenee Rift" t2="Wayfar"/>
+        <connection t1="Cheenee Rift" t2="Mos Nytram"/>
+        <connection t1="Dannars Claim" t2="Drydust Crescent"/>
+        <connection t1="Dannars Claim" t2="Mos Eisley"/>
+        <connection t1="Desolation Canyons" t2="Mos Zabu"/>
+        <connection t1="Desolation Canyons" t2="Lost Ghorfas City"/>
+        <connection t1="Desolation Canyons" t2="Dry Seas"/>
+        <connection t1="Desolation Canyons" t2="Metameur"/>
+        <connection t1="Desolation Canyons" t2="Pika Oasis"/>
+        <connection t1="Desolation Canyons" t2="Jundland Wastes"/>
+        <connection t1="Desolation Canyons" t2="Jawa Mountain Fortress"/>
+        <connection t1="Douz Outpost" t2="Metameur"/>
+        <connection t1="Douz Outpost" t2="Jawa Mountain Fortress"/>
+        <connection t1="Douz Outpost" t2="Western Dune Sea"/>
+        <connection t1="Dry Seas" t2="Hutt Flats"/>
+        <connection t1="Dry Seas" t2="Mos Entha"/>
+        <connection t1="Dry Seas" t2="Pika Oasis"/>
+        <connection t1="Drydust Crescent" t2="Sand People Enclave"/>
+        <connection t1="Drydust Crescent" t2="Mos Ila"/>
+        <connection t1="Drydust Crescent" t2="Highland Basin"/>
+        <connection t1="Drydust Crescent" t2="Junktown"/>
+        <connection t1="Drydust Crescent" t2="Mos Eisley"/>
+        <connection t1="Eastern Dune Sea" t2="Oasis South"/>
+        <connection t1="Eastern Dune Sea" t2="Farm Lands"/>
+        <connection t1="Eastern Dune Sea" t2="Tosche Station"/>
+        <connection t1="Eastern Dune Sea" t2="Krayt Graveyard"/>
+        <connection t1="Farm Lands" t2="Sand People Enclave"/>
+        <connection t1="Farm Lands" t2="Junktown"/>
+        <connection t1="Farm Lands" t2="Krayt Graveyard"/>
+        <connection t1="Forbidden Pass" t2="Motesta"/>
+        <connection t1="Forbidden Pass" t2="Lowland Basin"/>
+        <connection t1="Forbidden Pass" t2="Jundland Wastes"/>
+        <connection t1="Forbidden Pass" t2="Wayfar"/>
+        <connection t1="Fort Tusken" t2="Lost Ghorfas City"/>
+        <connection t1="Fort Tusken" t2="Tusken March"/>
+        <connection t1="Gafsa Canyon" t2="Mos Shuuta"/>
+        <connection t1="Gafsa Canyon" t2="Southern Dune Sea"/>
+        <connection t1="Gafsa Canyon" t2="Wayfar"/>
+        <connection t1="Ghomrassen A" t2="Ghomrassen C"/>
+        <connection t1="Ghomrassen A" t2="Pirate Base"/>
+        <connection t1="Ghomrassen B" t2="Ghomrassen C"/>
+        <connection t1="Ghomrassen B" t2="Pirate Base"/>
+        <connection t1="Grand Arena Flats" t2="Xelric Draw"/>
+        <connection t1="Grand Arena Flats" t2="Mos Taike"/>
+        <connection t1="Grand Arena Flats" t2="Mushroom Mesa"/>
+        <connection t1="Guermessa A" t2="Guermessa C"/>
+        <connection t1="Guermessa A" t2="Guermessa B"/>
+        <connection t1="Guermessa B" t2="Guermessa C"/>
+        <connection t1="Hidden Droid Factory" t2="Mos Gamos"/>
+        <connection t1="Highland Basin" t2="Mos Ila"/>
+        <connection t1="Highland Basin" t2="The Wound"/>
+        <connection t1="Highland Basin" t2="Mos Entha"/>
+        <connection t1="Highland Basin" t2="Xelric Draw"/>
+        <connection t1="Hutt Flats" t2="Mos Espa"/>
+        <connection t1="Hutt Flats" t2="Tusken March"/>
+        <connection t1="Hutt Flats" t2="Mos Entha"/>
+        <connection t1="Hutt Palace" t2="Mos Shuuta"/>
+        <connection t1="Hutt Palace" t2="Southern Dune Sea"/>
+        <connection t1="Jawa Mountain Fortress" t2="Metameur"/>
+        <connection t1="Jundland Wastes" t2="Mos Zabu"/>
+        <connection t1="Jundland Wastes" t2="Lowland Basin"/>
+        <connection t1="Jundland Wastes" t2="The Wound"/>
+        <connection t1="Junktown" t2="Sand People Enclave"/>
+        <connection t1="Junktown" t2="Krayt Graveyard"/>
+        <connection t1="Junktown" t2="Mos Eisley"/>
+        <connection t1="Krayt Graveyard" t2="Mos Eisley"/>
+        <connection t1="Lowland Basin" t2="Motesta"/>
+        <connection t1="Lowland Basin" t2="Motesta Oasis"/>
+        <connection t1="Lowland Basin" t2="The Wound"/>
+        <connection t1="Metameur" t2="Western Dune Sea"/>
+        <connection t1="Mos Entha" t2="The Wound"/>
+        <connection t1="Mos Entha" t2="Xelric Draw"/>
+        <connection t1="Mos Entha" t2="Pika Oasis"/>
+        <connection t1="Mos Espa" t2="Tusken March"/>
+        <connection t1="Mos Gamos" t2="Western Dune Sea"/>
+        <connection t1="Mos Nytram" t2="Tusken Canyon"/>
+        <connection t1="Mos Nytram" t2="Tosche Station"/>
+        <connection t1="Mos Osnoe" t2="Northern Dune Sea"/>
+        <connection t1="Mos Osnoe" t2="Mushroom Mesa"/>
+        <connection t1="Mos Shuuta" t2="Southern Dune Sea"/>
+        <connection t1="Mos Taike" t2="Xelric Draw"/>
+        <connection t1="Mos Zabu" t2="The Wound"/>
+        <connection t1="Mos Zabu" t2="Pika Oasis"/>
+        <connection t1="Motesta" t2="Motesta Oasis"/>
+        <connection t1="Motesta Oasis" t2="Sand People Enclave"/>
+        <connection t1="Mushroom Mesa" t2="Northern Dune Sea"/>
+        <connection t1="Northern Dune Sea" t2="Pit of Carkoon"/>
+        <connection t1="Oasis South" t2="Southern Reach"/>
+        <connection t1="Oasis South" t2="Tosche Station"/>
+        <connection t1="Pika Oasis" t2="The Wound"/>
+        <connection t1="Southern Dune Sea" t2="Tusken Canyon"/>
+        <connection t1="Southern Dune Sea" t2="Wayfar"/>        
+    </map>
+
+    <resourceList>
+        <resource name="PUs"/>
+    </resourceList>
+
+    <playerList>
+        <player name="Corporate-Sector-Authority" optional="false"/>
+        <player name="New-Republic" optional="false"/>
+        <player name="Black-Sun" optional="false"/>
+        <player name="Jedi-Order" optional="false"/>
+        <player name="Hutt-Cartel" optional="false"/>
+        <player name="Corellian-Security-Force" optional="false"/>
+        <player name="Imperial-Remnant" optional="false"/>
+        <player name="Mandalorians" optional="false"/>
+        <player name="Pirates" optional="true" defaultType="AI" isHidden="true"/>
+        <player name="Tusken-Raiders" optional="true" defaultType="AI" isHidden="true"/>
+        <alliance player="Hutt-Cartel" alliance="Dark-Side"/>
+        <alliance player="Black-Sun" alliance="Dark-Side"/>
+        <alliance player="Corporate-Sector-Authority" alliance="Dark-Side"/>
+        <alliance player="Imperial-Remnant" alliance="Dark-Side"/>
+        <alliance player="Pirates" alliance="Pirates"/>
+        <alliance player="Corellian-Security-Force" alliance="Light-Side"/>
+        <alliance player="Mandalorians" alliance="Light-Side"/>
+        <alliance player="New-Republic" alliance="Light-Side"/>
+        <alliance player="Jedi-Order" alliance="Light-Side"/>
+        <alliance player="Tusken-Raiders" alliance="Tusken-Raiders"/>
+    </playerList>
+
+    <unitList>
+        <unit name="Army-Troopers"/>
+        <unit name="Stormtroopers"/>
+        <unit name="Repulsor-Regiment"/>
+        <unit name="Walker-Regiment"/>
+        <unit name="TIE-Fighter-Squadron"/>
+        <unit name="TIE-Interceptor-Squadron"/>
+        <unit name="TIE-Bomber-Squadron"/>
+        <unit name="Star-Galleon"/>
+        <unit name="Escort-Carrier"/>
+        <unit name="Lancer-Frigate"/>
+        <unit name="Carrack-Cruiser"/>
+        <unit name="Strike-Cruiser"/>
+        <unit name="Imperial-Star-Destroyer"/>
+
+        <unit name="Army-Regiment"/>
+        <unit name="SpecForce-Regiment"/>
+        <unit name="Speeder-Regiment"/>
+        <unit name="Armor-Regiment"/>
+        <unit name="X-Wing-Squadron"/>
+        <unit name="A-Wing-Squadron"/>
+        <unit name="Y-Wing-Squadron"/>
+        <unit name="Corellian-Corvette"/>
+        <unit name="Corellian-Gunship"/>
+        <unit name="Nebulon-B-Frigate"/>
+        <unit name="Assault-Frigate"/>
+        <unit name="Calamari-Cruiser"/>
+        <unit name="Bulwark-Cruiser"/>
+
+        <unit name="Espo-Security-Officers"/>
+        <unit name="Espo-Combat-Troopers"/>
+        <unit name="Espo-Walker-Units"/>
+        <unit name="Espo-Repulsor-Units"/>
+        <unit name="IRD-Fighter-Squadron"/>
+        <unit name="P-Fighter-Squadron"/>
+        <unit name="Toscan-Heavy-Squadron"/>
+        <unit name="Etti-Patrol-Cruiser"/>
+        <unit name="Marauder-Corvette"/>
+        <unit name="Cutlass-Corvette"/>
+        <unit name="Dreadnaught-Cruiser"/>
+        <unit name="Victory-Star-Destroyer"/>
+        <unit name="Invincible-Cruiser"/>
+
+        <unit name="Temple-Security-Forces"/>
+        <unit name="Combat-Speeder-Group"/>
+        <unit name="Temple-Guards"/>
+        <unit name="Jedi-Knight"/>
+        <unit name="Aethersprite-Squadron"/>
+        <unit name="V19-Torrent-Squadron"/>
+        <unit name="ARC170-Heavy-Squadron"/>
+        <unit name="Charger-c70-Frigate"/>
+        <unit name="Pelta-Frigate"/>
+        <unit name="Alderaanian-War-Frigate"/>
+        <unit name="Bothan-Assault-Cruiser"/>
+        <unit name="Acclamator-Assault-Ship"/>
+        <unit name="Venator-Star-Destroyer"/>
+
+        <unit name="Henchmen"/>
+        <unit name="Mounted-Henchmen"/>
+        <unit name="Assassin-Droid"/>
+        <unit name="Gamorrean-Guards"/>
+        <unit name="Hutt-Expedition"/>
+        <unit name="Scyk-Squadron"/>
+        <!-- <unit name="Dunelizard-Squadron"/> -->
+        <unit name="Kimogila-Heavy-Squadron"/>
+        <unit name="Cargo-Transport"/>
+        <unit name="Mynock-Carrier"/>
+        <unit name="Fire-kraken-Corvette"/>
+        <unit name="Minstrel-Cruiser"/>
+        <unit name="Ubrikkian-Frigate"/>
+        <unit name="Krayt-Cruiser"/>
+
+        <unit name="Law-Enforcement-Droids"/>
+        <unit name="CorSec-Officers"/>
+        <unit name="SpecOps-Officers"/>
+        <unit name="Armored-Police-Units"/>
+        <unit name="LAF-250-Squadron"/>
+        <unit name="HLAF-500-Squadron"/>
+        <unit name="YV-929-Armed-Freighter"/>
+        <unit name="Action-Transport"/>
+        <unit name="Corellian-Heavy-Gunship"/>
+        <unit name="Buccaneer-Corvette"/>
+        <unit name="Corona-Frigate"/>
+        <unit name="CC-9600-Frigate"/>
+        <unit name="Proficient-Cruiser"/>
+
+        <unit name="Local-Criminals"/>
+        <unit name="Saboteur"/>
+        <unit name="Mercenaries"/>
+        <unit name="Armored-Mercenaries"/>
+        <unit name="Kihraxz-Squadron"/>
+        <unit name="Vaksai-Squadron"/>
+        <unit name="Supa-Heavy-Squadron"/>
+        <unit name="Bulk-Freighter"/>
+        <unit name="Container-Transport"/>
+        <unit name="Gozanti-Cruiser"/>
+        <unit name="Interceptor-Frigate"/>
+        <unit name="Providence-Destroyer"/>
+        <unit name="Aggressor-Destroyer"/>
+
+        <unit name="Mandalorian-Warriors"/>
+        <unit name="Mandalorian-Protectors"/>
+        <unit name="Artillery-Regiment"/>
+        <unit name="Tank-Regiment"/>
+        <unit name="Gladiator-Squadron"/>
+        <unit name="Firespray-Squadron"/>
+        <unit name="Pursuer-Heavy-Squadron"/>
+        <unit name="Space-Transport"/>
+        <unit name="Fleet-Carrier"/>
+        <unit name="Crusader-Corvette"/>
+        <unit name="Firestorm-Frigate"/>
+        <unit name="Beroya-Cruiser"/>
+        <unit name="Keldabe-Battleship"/>
+
+        <unit name="Sand-People"/>
+        <unit name="Tusken-Raider-Village"/>
+
+        <unit name="Space-Pirates"/>
+        <unit name="Pirate-Starfighters"/>
+        <unit name="Pirate-Ship"/>
+
+        <unit name="Factory"/>
+        <unit name="Anti-Air-Tower"/>
+        <unit name="Fortification"/>
+    </unitList>
+    
+    <relationshipTypes>
+        <relationshipType name="Friendly"/>
+        <relationshipType name="Hostile"/>
+    </relationshipTypes>
+
+    <gamePlay>
+        <delegate name="tech" javaClass="games.strategy.triplea.delegate.TechnologyDelegate" display="Research Technology"/>
+        <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+        <delegate name="endTurnNoPU" javaClass="games.strategy.triplea.delegate.NoPUEndTurnDelegate" display="Turn Complete"/>
+        <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+        <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+        <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+        <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+        <delegate name="tech_activation" javaClass="games.strategy.triplea.delegate.TechActivationDelegate" display="Activate Technology"/>
+        <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+        <delegate name="purchaseNoPU" javaClass="games.strategy.triplea.delegate.NoPUPurchaseDelegate" display="Purchase Units"/>
+        <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+        <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+        <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+
+        <sequence>
+            <step name="gameInitDelegate" delegate="initDelegate" display="Initializing Delegates" maxRunCount="1"/>
+            <step name="Black-SunBidPlace" delegate="placeBid" player="Black-Sun" display="Bid Placement" maxRunCount="1"/>
+            <step name="Corellian-Security-ForceBidPlace" delegate="placeBid" player="Corellian-Security-Force" display="Bid Placement" maxRunCount="1"/>
+            <step name="Corporate-Sector-AuthorityBidPlace" delegate="placeBid" player="Corporate-Sector-Authority" display="Bid Placement" maxRunCount="1"/>
+            <step name="Hutt-CartelBidPlace" delegate="placeBid" player="Hutt-Cartel" display="Bid Placement" maxRunCount="1"/>
+            <step name="Imperial-RemnantBidPlace" delegate="placeBid" player="Imperial-Remnant" display="Bid Placement" maxRunCount="1"/>
+            <step name="Jedi-OrderBidPlace" delegate="placeBid" player="Jedi-Order" display="Bid Placement" maxRunCount="1"/>
+            <step name="MandaloriansBidPlace" delegate="placeBid" player="Mandalorians" display="Bid Placement" maxRunCount="1"/>
+            <step name="PiratesBidPlace" delegate="placeBid" player="Pirates" display="Bid Placement" maxRunCount="1"/>
+            <step name="Tusken-RaidersBidPlace" delegate="placeBid" player="Tusken-Raiders" display="Bid Placement" maxRunCount="1"/>
+            <step name="New-RepublicBidPlace" delegate="placeBid" player="New-Republic" display="Bid Placement" maxRunCount="1"/>
+
+            <step name="Imperial-RemnantCombatMove" delegate="move" player="Imperial-Remnant" display="Combat Move"/>
+            <step name="Imperial-RemnantBattle" delegate="battle" player="Imperial-Remnant" display="Combat"/>
+            <step name="Imperial-RemnantNonCombatMove" delegate="move" player="Imperial-Remnant" display="Non Combat Move"/>
+            <step name="Imperial-RemnantPurchase" delegate="purchase" player="Imperial-Remnant" display="Purchase Units"/>
+            <step name="Imperial-RemnantPlace" delegate="place" player="Imperial-Remnant" display="Place Units"/>
+            <step name="Imperial-RemnantEndTurn" delegate="endTurn" player="Imperial-Remnant" display="Turn Complete"/>
+
+            <step name="MandaloriansCombatMove" delegate="move" player="Mandalorians" display="Combat Move"/>
+            <step name="MandaloriansBattle" delegate="battle" player="Mandalorians" display="Combat"/>
+            <step name="MandaloriansNonCombatMove" delegate="move" player="Mandalorians" display="Non Combat Move"/>
+            <step name="MandaloriansPurchase" delegate="purchase" player="Mandalorians" display="Purchase Units"/>
+            <step name="MandaloriansPlace" delegate="place" player="Mandalorians" display="Place Units"/>
+            <step name="MandaloriansEndTurn" delegate="endTurn" player="Mandalorians" display="Turn Complete"/>
+
+            <step name="Corporate-Sector-AuthorityCombatMove" delegate="move" player="Corporate-Sector-Authority" display="Combat Move"/>
+            <step name="Corporate-Sector-AuthorityBattle" delegate="battle" player="Corporate-Sector-Authority" display="Combat"/>
+            <step name="Corporate-Sector-AuthorityNonCombatMove" delegate="move" player="Corporate-Sector-Authority" display="Non Combat Move"/>
+            <step name="Corporate-Sector-AuthorityPurchase" delegate="purchase" player="Corporate-Sector-Authority" display="Purchase Units"/>
+            <step name="Corporate-Sector-AuthorityPlace" delegate="place" player="Corporate-Sector-Authority" display="Place Units"/>
+            <step name="Corporate-Sector-AuthorityEndTurn" delegate="endTurn" player="Corporate-Sector-Authority" display="Turn Complete"/>
+
+            <step name="New-RepublicCombatMove" delegate="move" player="New-Republic" display="Combat Move"/>
+            <step name="New-RepublicBattle" delegate="battle" player="New-Republic" display="Combat"/>
+            <step name="New-RepublicNonCombatMove" delegate="move" player="New-Republic" display="Non Combat Move"/>
+            <step name="New-RepublicPurchase" delegate="purchase" player="New-Republic" display="Purchase Units"/>
+            <step name="New-RepublicPlace" delegate="place" player="New-Republic" display="Place Units"/>
+            <step name="New-RepublicEndTurn" delegate="endTurn" player="New-Republic" display="Turn Complete"/>
+
+            <step name="Black-SunCombatMove" delegate="move" player="Black-Sun" display="Combat Move"/>
+            <step name="Black-SunBattle" delegate="battle" player="Black-Sun" display="Combat"/>
+            <step name="Black-SunNonCombatMove" delegate="move" player="Black-Sun" display="Non Combat Move"/>
+            <step name="Black-SunPurchase" delegate="purchase" player="Black-Sun" display="Purchase Units"/>
+            <step name="Black-SunPlace" delegate="place" player="Black-Sun" display="Place Units"/>
+            <step name="Black-SunEndTurn" delegate="endTurn" player="Black-Sun" display="Turn Complete"/>
+
+            <step name="Jedi-OrderCombatMove" delegate="move" player="Jedi-Order" display="Combat Move"/>
+            <step name="Jedi-OrderBattle" delegate="battle" player="Jedi-Order" display="Combat"/>
+            <step name="Jedi-OrderNonCombatMove" delegate="move" player="Jedi-Order" display="Non Combat Move"/>
+            <step name="Jedi-OrderPurchase" delegate="purchase" player="Jedi-Order" display="Purchase Units"/>
+            <step name="Jedi-OrderPlace" delegate="place" player="Jedi-Order" display="Place Units"/>
+            <step name="Jedi-OrderEndTurn" delegate="endTurn" player="Jedi-Order" display="Turn Complete"/>
+
+            <step name="Hutt-CartelCombatMove" delegate="move" player="Hutt-Cartel" display="Combat Move"/>
+            <step name="Hutt-CartelBattle" delegate="battle" player="Hutt-Cartel" display="Combat"/>
+            <step name="Hutt-CartelNonCombatMove" delegate="move" player="Hutt-Cartel" display="Non Combat Move"/>
+            <step name="Hutt-CartelPurchase" delegate="purchase" player="Hutt-Cartel" display="Purchase Units"/>
+            <step name="Hutt-CartelPlace" delegate="place" player="Hutt-Cartel" display="Place Units"/>
+            <step name="Hutt-CartelEndTurn" delegate="endTurn" player="Hutt-Cartel" display="Turn Complete"/>
+
+            <step name="Corellian-Security-ForceCombatMove" delegate="move" player="Corellian-Security-Force" display="Combat Move"/>
+            <step name="Corellian-Security-ForceBattle" delegate="battle" player="Corellian-Security-Force" display="Combat"/>
+            <step name="Corellian-Security-ForceNonCombatMove" delegate="move" player="Corellian-Security-Force" display="Non Combat Move"/>
+            <step name="Corellian-Security-ForcePurchase" delegate="purchase" player="Corellian-Security-Force" display="Purchase Units"/>
+            <step name="Corellian-Security-ForcePlace" delegate="place" player="Corellian-Security-Force" display="Place Units"/>
+            <step name="Corellian-Security-ForceEndTurn" delegate="endTurn" player="Corellian-Security-Force" display="Turn Complete"/>
+
+            <step name="PiratesCombatMove" delegate="move" player="Pirates" display="Combat Move"/>
+            <step name="PiratesBattle" delegate="battle" player="Pirates" display="Combat"/>
+            <step name="PiratesNonCombatMove" delegate="move" player="Pirates" display="Non Combat Move"/>
+            <step name="PiratesPurchase" delegate="purchase" player="Pirates" display="Purchase Units"/>
+            <step name="PiratesPlace" delegate="place" player="Pirates" display="Place Units"/>
+            <step name="PiratesEndTurn" delegate="endTurn" player="Pirates" display="Turn Complete"/>
+
+            <step name="Tusken-RaidersCombatMove" delegate="move" player="Tusken-Raiders" display="Combat Move"/>
+            <step name="Tusken-RaidersBattle" delegate="battle" player="Tusken-Raiders" display="Combat"/>
+            <step name="Tusken-RaidersNonCombatMove" delegate="move" player="Tusken-Raiders" display="Non Combat Move"/>
+            <step name="Tusken-RaidersPurchase" delegate="purchase" player="Tusken-Raiders" display="Purchase Units"/>
+            <step name="Tusken-RaidersPlace" delegate="place" player="Tusken-Raiders" display="Place Units"/>
+            <step name="Tusken-RaidersEndTurn" delegate="endTurn" player="Tusken-Raiders" display="Turn Complete"/>
+            <step name="endRoundStep" delegate="endRound" display="Round Complete"/>
+        </sequence>
+        <offset round="0"/>
+    </gamePlay>
+
+    <production>
+        <productionRule name="buyFirespray-Squadron_Mandalorians">
+            <cost resource="PUs" quantity="31"/>
+            <result resourceOrUnit="Firespray-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyTemple-Security-Forces_Jedi-Order">
+            <cost resource="PUs" quantity="13"/>
+            <result resourceOrUnit="Temple-Security-Forces" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAlderaanian-War-Frigate_Jedi-Order">
+            <cost resource="PUs" quantity="17"/>
+            <result resourceOrUnit="Alderaanian-War-Frigate" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyCrusader-Corvette_Mandalorians">
+            <cost resource="PUs" quantity="17"/>
+            <result resourceOrUnit="Crusader-Corvette" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAnti-Air-Tower_Corellian-Security-Force">
+            <cost resource="PUs" quantity="25"/>
+            <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyCarrack-Cruiser_Imperial-Remnant">
+            <cost resource="PUs" quantity="17"/>
+            <result resourceOrUnit="Carrack-Cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFleet-Carrier_Mandalorians">
+            <cost resource="PUs" quantity="14"/>
+            <result resourceOrUnit="Fleet-Carrier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyCorellian-Corvette_New-Republic">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Corellian-Corvette" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFortification_Imperial-Remnant">
+            <cost resource="PUs" quantity="50"/>
+            <result resourceOrUnit="Fortification" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySupa-Heavy-Squadron_Black-Sun">
+            <cost resource="PUs" quantity="36"/>
+            <result resourceOrUnit="Supa-Heavy-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyToscan-Heavy-Squadron_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="32"/>
+            <result resourceOrUnit="Toscan-Heavy-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyY-Wing-Squadron_New-Republic">
+            <cost resource="PUs" quantity="35"/>
+            <result resourceOrUnit="Y-Wing-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyYV-929-Armed-Freighter_Corellian-Security-Force">
+            <cost resource="PUs" quantity="16"/>
+            <result resourceOrUnit="YV-929-Armed-Freighter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyKihraxz-Squadron_Black-Sun">
+            <cost resource="PUs" quantity="31"/>
+            <result resourceOrUnit="Kihraxz-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyBulk-Freighter_Black-Sun">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Bulk-Freighter" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyRepulsor-Regiment_Imperial-Remnant">
+            <cost resource="PUs" quantity="18"/>
+            <result resourceOrUnit="Repulsor-Regiment" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyEscort-Carrier_Imperial-Remnant">
+            <cost resource="PUs" quantity="16"/>
+            <result resourceOrUnit="Escort-Carrier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyEtti-Patrol-Cruiser_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="16"/>
+            <result resourceOrUnit="Etti-Patrol-Cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyArtillery-Regiment_Mandalorians">
+            <cost resource="PUs" quantity="11"/>
+            <result resourceOrUnit="Artillery-Regiment" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyGozanti-Cruiser_Black-Sun">
+            <cost resource="PUs" quantity="14"/>
+            <result resourceOrUnit="Gozanti-Cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyMinstrel-Cruiser_Hutt-Cartel">
+            <cost resource="PUs" quantity="12"/>
+            <result resourceOrUnit="Minstrel-Cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyMandalorian-Protectors_Mandalorians">
+            <cost resource="PUs" quantity="18"/>
+            <result resourceOrUnit="Mandalorian-Protectors" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyMynock-Carrier_Hutt-Cartel">
+            <cost resource="PUs" quantity="14"/>
+            <result resourceOrUnit="Mynock-Carrier" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyStar-Galleon_Imperial-Remnant">
+            <cost resource="PUs" quantity="18"/>
+            <result resourceOrUnit="Star-Galleon" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyTIE-Interceptor-Squadron_Imperial-Remnant">
+            <cost resource="PUs" quantity="16"/>
+            <result resourceOrUnit="TIE-Interceptor-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySpecForce-Regiment_New-Republic">
+            <cost resource="PUs" quantity="18"/>
+            <result resourceOrUnit="SpecForce-Regiment" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyJedi-Knight_Jedi-Order">
+            <cost resource="PUs" quantity="45"/>
+            <result resourceOrUnit="Jedi-Knight" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyVictory-Star-Destroyer_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="33"/>
+            <result resourceOrUnit="Victory-Star-Destroyer" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyUbrikkian-Frigate_Hutt-Cartel">
+            <cost resource="PUs" quantity="24"/>
+            <result resourceOrUnit="Ubrikkian-Frigate" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyMercenaries_Black-Sun">
+            <cost resource="PUs" quantity="13"/>
+            <result resourceOrUnit="Mercenaries" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyHenchmen_Hutt-Cartel">
+            <cost resource="PUs" quantity="13"/>
+            <result resourceOrUnit="Henchmen" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyIRD-Fighter-Squadron_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="14"/>
+            <result resourceOrUnit="IRD-Fighter-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyV19-Torrent-Squadron_Jedi-Order">
+            <cost resource="PUs" quantity="31"/>
+            <result resourceOrUnit="V19-Torrent-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFortification_Black-Sun">
+            <cost resource="PUs" quantity="50"/>
+            <result resourceOrUnit="Fortification" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAnti-Air-Tower_Mandalorians">
+            <cost resource="PUs" quantity="25"/>
+            <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyCharger-c70-Frigate_Jedi-Order">
+            <cost resource="PUs" quantity="14"/>
+            <result resourceOrUnit="Charger-c70-Frigate" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyHutt-Expedition_Hutt-Cartel">
+            <cost resource="PUs" quantity="30"/>
+            <result resourceOrUnit="Hutt-Expedition" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyKimogila-Heavy-Squadron_Hutt-Cartel">
+            <cost resource="PUs" quantity="32"/>
+            <result resourceOrUnit="Kimogila-Heavy-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAnti-Air-Tower_Jedi-Order">
+            <cost resource="PUs" quantity="25"/>
+            <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFactory_Imperial-Remnant">
+            <cost resource="PUs" quantity="75"/>
+            <result resourceOrUnit="Factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyLaw-Enforcement-Droids_Corellian-Security-Force">
+            <cost resource="PUs" quantity="11"/>
+            <result resourceOrUnit="Law-Enforcement-Droids" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAethersprite-Squadron_Jedi-Order">
+            <cost resource="PUs" quantity="14"/>
+            <result resourceOrUnit="Aethersprite-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFire-kraken-Corvette_Hutt-Cartel">
+            <cost resource="PUs" quantity="17"/>
+            <result resourceOrUnit="Fire-kraken-Corvette" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFortification_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="50"/>
+            <result resourceOrUnit="Fortification" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFortification_Mandalorians">
+            <cost resource="PUs" quantity="50"/>
+            <result resourceOrUnit="Fortification" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAggressor-Destroyer_Black-Sun">
+            <cost resource="PUs" quantity="52"/>
+            <result resourceOrUnit="Aggressor-Destroyer" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFortification_Corellian-Security-Force">
+            <cost resource="PUs" quantity="50"/>
+            <result resourceOrUnit="Fortification" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyARC170-Heavy-Squadron_Jedi-Order">
+            <cost resource="PUs" quantity="38"/>
+            <result resourceOrUnit="ARC170-Heavy-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyProficient-Cruiser_Corellian-Security-Force">
+            <cost resource="PUs" quantity="49"/>
+            <result resourceOrUnit="Proficient-Cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyTIE-Bomber-Squadron_Imperial-Remnant">
+            <cost resource="PUs" quantity="20"/>
+            <result resourceOrUnit="TIE-Bomber-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyCargo-Transport_Hutt-Cartel">
+            <cost resource="PUs" quantity="17"/>
+            <result resourceOrUnit="Cargo-Transport" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyCombat-Speeder-Group_Jedi-Order">
+            <cost resource="PUs" quantity="18"/>
+            <result resourceOrUnit="Combat-Speeder-Group" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyLocal-Criminals_Black-Sun">
+            <cost resource="PUs" quantity="11"/>
+            <result resourceOrUnit="Local-Criminals" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAnti-Air-Tower_Imperial-Remnant">
+            <cost resource="PUs" quantity="25"/>
+            <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFactory_Hutt-Cartel">
+            <cost resource="PUs" quantity="75"/>
+            <result resourceOrUnit="Factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAnti-Air-Tower_New-Republic">
+            <cost resource="PUs" quantity="25"/>
+            <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyP-Fighter-Squadron_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="P-Fighter-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyMounted-Henchmen_Hutt-Cartel">
+            <cost resource="PUs" quantity="17"/>
+            <result resourceOrUnit="Mounted-Henchmen" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFactory_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="75"/>
+            <result resourceOrUnit="Factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyArmor-Regiment_New-Republic">
+            <cost resource="PUs" quantity="20"/>
+            <result resourceOrUnit="Armor-Regiment" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFortification_New-Republic">
+            <cost resource="PUs" quantity="50"/>
+            <result resourceOrUnit="Fortification" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyWalker-Regiment_Imperial-Remnant">
+            <cost resource="PUs" quantity="19"/>
+            <result resourceOrUnit="Walker-Regiment" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyBothan-Assault-Cruiser_Jedi-Order">
+            <cost resource="PUs" quantity="16"/>
+            <result resourceOrUnit="Bothan-Assault-Cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyEspo-Security-Officers_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="14"/>
+            <result resourceOrUnit="Espo-Security-Officers" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyTemple-Guards_Jedi-Order">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Temple-Guards" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyScyk-Squadron_Hutt-Cartel">
+            <cost resource="PUs" quantity="13"/>
+            <result resourceOrUnit="Scyk-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyCorellian-Gunship_New-Republic">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Corellian-Gunship" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFactory_Black-Sun">
+            <cost resource="PUs" quantity="75"/>
+            <result resourceOrUnit="Factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFactory_Corellian-Security-Force">
+            <cost resource="PUs" quantity="75"/>
+            <result resourceOrUnit="Factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyTIE-Fighter-Squadron_Imperial-Remnant">
+            <cost resource="PUs" quantity="14"/>
+            <result resourceOrUnit="TIE-Fighter-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyStormtroopers_Imperial-Remnant">
+            <cost resource="PUs" quantity="18"/>
+            <result resourceOrUnit="Stormtroopers" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyNebulon-B-Frigate_New-Republic">
+            <cost resource="PUs" quantity="16"/>
+            <result resourceOrUnit="Nebulon-B-Frigate" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyVenator-Star-Destroyer_Jedi-Order">
+            <cost resource="PUs" quantity="55"/>
+            <result resourceOrUnit="Venator-Star-Destroyer" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySpeeder-Regiment_New-Republic">
+            <cost resource="PUs" quantity="18"/>
+            <result resourceOrUnit="Speeder-Regiment" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyMandalorian-Warriors_Mandalorians">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Mandalorian-Warriors" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyKeldabe-Battleship_Mandalorians">
+            <cost resource="PUs" quantity="58"/>
+            <result resourceOrUnit="Keldabe-Battleship" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyLAF-250-Squadron_Corellian-Security-Force">
+            <cost resource="PUs" quantity="29"/>
+            <result resourceOrUnit="LAF-250-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyEspo-Combat-Troopers_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Espo-Combat-Troopers" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAnti-Air-Tower_Black-Sun">
+            <cost resource="PUs" quantity="25"/>
+            <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyCalamari-Cruiser_New-Republic">
+            <cost resource="PUs" quantity="36"/>
+            <result resourceOrUnit="Calamari-Cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyX-Wing-Squadron_New-Republic">
+            <cost resource="PUs" quantity="33"/>
+            <result resourceOrUnit="X-Wing-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAssassin-Droid_Hutt-Cartel">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Assassin-Droid" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAnti-Air-Tower_Hutt-Cartel">
+            <cost resource="PUs" quantity="25"/>
+            <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyContainer-Transport_Black-Sun">
+            <cost resource="PUs" quantity="17"/>
+            <result resourceOrUnit="Container-Transport" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyCutlass-Corvette_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="19"/>
+            <result resourceOrUnit="Cutlass-Corvette" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyLancer-Frigate_Imperial-Remnant">
+            <cost resource="PUs" quantity="12"/>
+            <result resourceOrUnit="Lancer-Frigate" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyArmored-Mercenaries_Black-Sun">
+            <cost resource="PUs" quantity="17"/>
+            <result resourceOrUnit="Armored-Mercenaries" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyTank-Regiment_Mandalorians">
+            <cost resource="PUs" quantity="21"/>
+            <result resourceOrUnit="Tank-Regiment" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyArmy-Troopers_Imperial-Remnant">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Army-Troopers" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyCorellian-Heavy-Gunship_Corellian-Security-Force">
+            <cost resource="PUs" quantity="17"/>
+            <result resourceOrUnit="Corellian-Heavy-Gunship" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyImperial-Star-Destroyer_Imperial-Remnant">
+            <cost resource="PUs" quantity="85"/>
+            <result resourceOrUnit="Imperial-Star-Destroyer" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyMarauder-Corvette_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="13"/>
+            <result resourceOrUnit="Marauder-Corvette" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyDreadnaught-Cruiser_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="21"/>
+            <result resourceOrUnit="Dreadnaught-Cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAction-Transport_Corellian-Security-Force">
+            <cost resource="PUs" quantity="14"/>
+            <result resourceOrUnit="Action-Transport" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyCorSec-Officers_Corellian-Security-Force">
+            <cost resource="PUs" quantity="14"/>
+            <result resourceOrUnit="CorSec-Officers" quantity="1"/>
+        </productionRule>
+        <!-- <productionRule name="buyDunelizard-Squadron_Hutt-Cartel">
+            <cost resource="PUs" quantity="17"/>
+            <result resourceOrUnit="Dunelizard-Squadron" quantity="1"/>
+        </productionRule> -->
+        <productionRule name="buyInterceptor-Frigate_Black-Sun">
+            <cost resource="PUs" quantity="14"/>
+            <result resourceOrUnit="Interceptor-Frigate" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyGladiator-Squadron_Mandalorians">
+            <cost resource="PUs" quantity="16"/>
+            <result resourceOrUnit="Gladiator-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyHLAF-500-Squadron_Corellian-Security-Force">
+            <cost resource="PUs" quantity="33"/>
+            <result resourceOrUnit="HLAF-500-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFirestorm-Frigate_Mandalorians">
+            <cost resource="PUs" quantity="18"/>
+            <result resourceOrUnit="Firestorm-Frigate" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyStrike-Cruiser_Imperial-Remnant">
+            <cost resource="PUs" quantity="25"/>
+            <result resourceOrUnit="Strike-Cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySpecOps-Officers_Corellian-Security-Force">
+            <cost resource="PUs" quantity="16"/>
+            <result resourceOrUnit="SpecOps-Officers" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFactory_Jedi-Order">
+            <cost resource="PUs" quantity="75"/>
+            <result resourceOrUnit="Factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyA-Wing-Squadron_New-Republic">
+            <cost resource="PUs" quantity="34"/>
+            <result resourceOrUnit="A-Wing-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyProvidence-Destroyer_Black-Sun">
+            <cost resource="PUs" quantity="36"/>
+            <result resourceOrUnit="Providence-Destroyer" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyInvincible-Cruiser_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="45"/>
+            <result resourceOrUnit="Invincible-Cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyPelta-Frigate_Jedi-Order">
+            <cost resource="PUs" quantity="17"/>
+            <result resourceOrUnit="Pelta-Frigate" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySpace-Transport_Mandalorians">
+            <cost resource="PUs" quantity="14"/>
+            <result resourceOrUnit="Space-Transport" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyEspo-Repulsor-Units_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="16"/>
+            <result resourceOrUnit="Espo-Repulsor-Units" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyEspo-Walker-Units_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="16"/>
+            <result resourceOrUnit="Espo-Walker-Units" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAssault-Frigate_New-Republic">
+            <cost resource="PUs" quantity="20"/>
+            <result resourceOrUnit="Assault-Frigate" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyBuccaneer-Corvette_Corellian-Security-Force">
+            <cost resource="PUs" quantity="17"/>
+            <result resourceOrUnit="Buccaneer-Corvette" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFortification_Jedi-Order">
+            <cost resource="PUs" quantity="50"/>
+            <result resourceOrUnit="Fortification" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFactory_New-Republic">
+            <cost resource="PUs" quantity="75"/>
+            <result resourceOrUnit="Factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAnti-Air-Tower_Corporate-Sector-Authority">
+            <cost resource="PUs" quantity="25"/>
+            <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyArmored-Police-Units_Corellian-Security-Force">
+            <cost resource="PUs" quantity="18"/>
+            <result resourceOrUnit="Armored-Police-Units" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyKrayt-Cruiser_Hutt-Cartel">
+            <cost resource="PUs" quantity="49"/>
+            <result resourceOrUnit="Krayt-Cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAcclamator-Assault-Ship_Jedi-Order">
+            <cost resource="PUs" quantity="37"/>
+            <result resourceOrUnit="Acclamator-Assault-Ship" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyCC-9600-Frigate_Corellian-Security-Force">
+            <cost resource="PUs" quantity="30"/>
+            <result resourceOrUnit="CC-9600-Frigate" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyGamorrean-Guards_Hutt-Cartel">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Gamorrean-Guards" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFactory_Mandalorians">
+            <cost resource="PUs" quantity="75"/>
+            <result resourceOrUnit="Factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFortification_Hutt-Cartel">
+            <cost resource="PUs" quantity="50"/>
+            <result resourceOrUnit="Fortification" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyPursuer-Heavy-Squadron_Mandalorians">
+            <cost resource="PUs" quantity="35"/>
+            <result resourceOrUnit="Pursuer-Heavy-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyBeroya-Cruiser_Mandalorians">
+            <cost resource="PUs" quantity="29"/>
+            <result resourceOrUnit="Beroya-Cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyBulwark-Cruiser_New-Republic">
+            <cost resource="PUs" quantity="90"/>
+            <result resourceOrUnit="Bulwark-Cruiser" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySaboteur_Black-Sun">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Saboteur" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyVaksai-Squadron_Black-Sun">
+            <cost resource="PUs" quantity="31"/>
+            <result resourceOrUnit="Vaksai-Squadron" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyArmy-Regiment_New-Republic">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Army-Regiment" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyCorona-Frigate_Corellian-Security-Force">
+            <cost resource="PUs" quantity="22"/>
+            <result resourceOrUnit="Corona-Frigate" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFactory_Pirates">
+            <cost resource="PUs" quantity="75"/>
+            <result resourceOrUnit="Factory" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyAnti-Air-Tower_Pirates">
+            <cost resource="PUs" quantity="25"/>
+            <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyFortification_Pirates">
+            <cost resource="PUs" quantity="50"/>
+            <result resourceOrUnit="Fortification" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyPirate-Ship_Pirates">
+            <cost resource="PUs" quantity="20"/>
+            <result resourceOrUnit="Pirate-Ship" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyPirate-Starfighters_Pirates">
+            <cost resource="PUs" quantity="20"/>
+            <result resourceOrUnit="Pirate-Starfighters" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySpace-Pirates_Pirates">
+            <cost resource="PUs" quantity="20"/>
+            <result resourceOrUnit="Space-Pirates" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyTusken-Raider-Village_Tusken-Raiders">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Tusken-Raider-Village" quantity="1"/>
+        </productionRule>
+        <productionRule name="buySand-People_Tusken-Raiders">
+            <cost resource="PUs" quantity="15"/>
+            <result resourceOrUnit="Sand-People" quantity="1"/>
+        </productionRule>
+
+        <productionFrontier name="production_Imperial-Remnant">
+            <frontierRules name="buyArmy-Troopers_Imperial-Remnant"/>
+            <frontierRules name="buyStormtroopers_Imperial-Remnant"/>
+            <frontierRules name="buyRepulsor-Regiment_Imperial-Remnant"/>
+            <frontierRules name="buyWalker-Regiment_Imperial-Remnant"/>
+            <frontierRules name="buyTIE-Fighter-Squadron_Imperial-Remnant"/>
+            <frontierRules name="buyTIE-Interceptor-Squadron_Imperial-Remnant"/>
+            <frontierRules name="buyTIE-Bomber-Squadron_Imperial-Remnant"/>
+            <frontierRules name="buyStar-Galleon_Imperial-Remnant"/>
+            <frontierRules name="buyEscort-Carrier_Imperial-Remnant"/>
+            <frontierRules name="buyLancer-Frigate_Imperial-Remnant"/>
+            <frontierRules name="buyCarrack-Cruiser_Imperial-Remnant"/>
+            <frontierRules name="buyStrike-Cruiser_Imperial-Remnant"/>
+            <frontierRules name="buyImperial-Star-Destroyer_Imperial-Remnant"/>
+            <frontierRules name="buyFactory_Imperial-Remnant"/>
+            <frontierRules name="buyAnti-Air-Tower_Imperial-Remnant"/>
+            <frontierRules name="buyFortification_Imperial-Remnant"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_New-Republic">
+            <frontierRules name="buyArmy-Regiment_New-Republic"/>
+            <frontierRules name="buySpecForce-Regiment_New-Republic"/>
+            <frontierRules name="buySpeeder-Regiment_New-Republic"/>
+            <frontierRules name="buyArmor-Regiment_New-Republic"/>
+            <frontierRules name="buyX-Wing-Squadron_New-Republic"/>
+            <frontierRules name="buyA-Wing-Squadron_New-Republic"/>
+            <frontierRules name="buyY-Wing-Squadron_New-Republic"/>
+            <frontierRules name="buyCorellian-Corvette_New-Republic"/>
+            <frontierRules name="buyCorellian-Gunship_New-Republic"/>
+            <frontierRules name="buyNebulon-B-Frigate_New-Republic"/>
+            <frontierRules name="buyAssault-Frigate_New-Republic"/>
+            <frontierRules name="buyCalamari-Cruiser_New-Republic"/>
+            <frontierRules name="buyBulwark-Cruiser_New-Republic"/>
+            <frontierRules name="buyFactory_New-Republic"/>
+            <frontierRules name="buyAnti-Air-Tower_New-Republic"/>
+            <frontierRules name="buyFortification_New-Republic"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_Corporate-Sector-Authority">
+            <frontierRules name="buyEspo-Security-Officers_Corporate-Sector-Authority"/>
+            <frontierRules name="buyEspo-Combat-Troopers_Corporate-Sector-Authority"/>
+            <frontierRules name="buyEspo-Walker-Units_Corporate-Sector-Authority"/>
+            <frontierRules name="buyEspo-Repulsor-Units_Corporate-Sector-Authority"/>
+            <frontierRules name="buyIRD-Fighter-Squadron_Corporate-Sector-Authority"/>
+            <frontierRules name="buyP-Fighter-Squadron_Corporate-Sector-Authority"/>
+            <frontierRules name="buyToscan-Heavy-Squadron_Corporate-Sector-Authority"/>
+            <frontierRules name="buyEtti-Patrol-Cruiser_Corporate-Sector-Authority"/>
+            <frontierRules name="buyMarauder-Corvette_Corporate-Sector-Authority"/>
+            <frontierRules name="buyCutlass-Corvette_Corporate-Sector-Authority"/>
+            <frontierRules name="buyDreadnaught-Cruiser_Corporate-Sector-Authority"/>
+            <frontierRules name="buyVictory-Star-Destroyer_Corporate-Sector-Authority"/>
+            <frontierRules name="buyInvincible-Cruiser_Corporate-Sector-Authority"/>
+            <frontierRules name="buyFactory_Corporate-Sector-Authority"/>
+            <frontierRules name="buyAnti-Air-Tower_Corporate-Sector-Authority"/>
+            <frontierRules name="buyFortification_Corporate-Sector-Authority"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_Jedi-Order">
+            <frontierRules name="buyTemple-Security-Forces_Jedi-Order"/>
+            <frontierRules name="buyCombat-Speeder-Group_Jedi-Order"/>
+            <frontierRules name="buyTemple-Guards_Jedi-Order"/>
+            <frontierRules name="buyJedi-Knight_Jedi-Order"/>
+            <frontierRules name="buyAethersprite-Squadron_Jedi-Order"/>
+            <frontierRules name="buyV19-Torrent-Squadron_Jedi-Order"/>
+            <frontierRules name="buyARC170-Heavy-Squadron_Jedi-Order"/>
+            <frontierRules name="buyCharger-c70-Frigate_Jedi-Order"/>
+            <frontierRules name="buyPelta-Frigate_Jedi-Order"/>
+            <frontierRules name="buyAlderaanian-War-Frigate_Jedi-Order"/>
+            <frontierRules name="buyBothan-Assault-Cruiser_Jedi-Order"/>
+            <frontierRules name="buyAcclamator-Assault-Ship_Jedi-Order"/>
+            <frontierRules name="buyVenator-Star-Destroyer_Jedi-Order"/>
+            <frontierRules name="buyFactory_Jedi-Order"/>
+            <frontierRules name="buyAnti-Air-Tower_Jedi-Order"/>
+            <frontierRules name="buyFortification_Jedi-Order"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_Hutt-Cartel">
+            <frontierRules name="buyHenchmen_Hutt-Cartel"/>
+            <frontierRules name="buyMounted-Henchmen_Hutt-Cartel"/>
+            <frontierRules name="buyAssassin-Droid_Hutt-Cartel"/>
+            <frontierRules name="buyGamorrean-Guards_Hutt-Cartel"/>
+            <frontierRules name="buyHutt-Expedition_Hutt-Cartel"/>
+            <frontierRules name="buyScyk-Squadron_Hutt-Cartel"/>
+            <!-- <frontierRules name="buyDunelizard-Squadron_Hutt-Cartel"/> -->
+            <frontierRules name="buyKimogila-Heavy-Squadron_Hutt-Cartel"/>
+            <frontierRules name="buyCargo-Transport_Hutt-Cartel"/>
+            <frontierRules name="buyMynock-Carrier_Hutt-Cartel"/>
+            <frontierRules name="buyFire-kraken-Corvette_Hutt-Cartel"/>
+            <frontierRules name="buyMinstrel-Cruiser_Hutt-Cartel"/>
+            <frontierRules name="buyUbrikkian-Frigate_Hutt-Cartel"/>
+            <frontierRules name="buyKrayt-Cruiser_Hutt-Cartel"/>
+            <frontierRules name="buyFactory_Hutt-Cartel"/>
+            <frontierRules name="buyAnti-Air-Tower_Hutt-Cartel"/>
+            <frontierRules name="buyFortification_Hutt-Cartel"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_Corellian-Security-Force">
+            <frontierRules name="buyLaw-Enforcement-Droids_Corellian-Security-Force"/>
+            <frontierRules name="buyCorSec-Officers_Corellian-Security-Force"/>
+            <frontierRules name="buySpecOps-Officers_Corellian-Security-Force"/>
+            <frontierRules name="buyArmored-Police-Units_Corellian-Security-Force"/>
+            <frontierRules name="buyLAF-250-Squadron_Corellian-Security-Force"/>
+            <frontierRules name="buyHLAF-500-Squadron_Corellian-Security-Force"/>
+            <frontierRules name="buyYV-929-Armed-Freighter_Corellian-Security-Force"/>
+            <frontierRules name="buyAction-Transport_Corellian-Security-Force"/>
+            <frontierRules name="buyCorellian-Heavy-Gunship_Corellian-Security-Force"/>
+            <frontierRules name="buyBuccaneer-Corvette_Corellian-Security-Force"/>
+            <frontierRules name="buyCorona-Frigate_Corellian-Security-Force"/>
+            <frontierRules name="buyCC-9600-Frigate_Corellian-Security-Force"/>
+            <frontierRules name="buyProficient-Cruiser_Corellian-Security-Force"/>
+            <frontierRules name="buyFactory_Corellian-Security-Force"/>
+            <frontierRules name="buyAnti-Air-Tower_Corellian-Security-Force"/>
+            <frontierRules name="buyFortification_Corellian-Security-Force"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_Black-Sun">
+            <frontierRules name="buyLocal-Criminals_Black-Sun"/>
+            <frontierRules name="buySaboteur_Black-Sun"/>
+            <frontierRules name="buyMercenaries_Black-Sun"/>
+            <frontierRules name="buyArmored-Mercenaries_Black-Sun"/>
+            <frontierRules name="buyKihraxz-Squadron_Black-Sun"/>
+            <frontierRules name="buyVaksai-Squadron_Black-Sun"/>
+            <frontierRules name="buySupa-Heavy-Squadron_Black-Sun"/>
+            <frontierRules name="buyBulk-Freighter_Black-Sun"/>
+            <frontierRules name="buyContainer-Transport_Black-Sun"/>
+            <frontierRules name="buyGozanti-Cruiser_Black-Sun"/>
+            <frontierRules name="buyInterceptor-Frigate_Black-Sun"/>
+            <frontierRules name="buyProvidence-Destroyer_Black-Sun"/>
+            <frontierRules name="buyAggressor-Destroyer_Black-Sun"/>
+            <frontierRules name="buyFactory_Black-Sun"/>
+            <frontierRules name="buyAnti-Air-Tower_Black-Sun"/>
+            <frontierRules name="buyFortification_Black-Sun"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_Mandalorians">
+            <frontierRules name="buyMandalorian-Warriors_Mandalorians"/>
+            <frontierRules name="buyMandalorian-Protectors_Mandalorians"/>
+            <frontierRules name="buyArtillery-Regiment_Mandalorians"/>
+            <frontierRules name="buyTank-Regiment_Mandalorians"/>
+            <frontierRules name="buyGladiator-Squadron_Mandalorians"/>
+            <frontierRules name="buyFirespray-Squadron_Mandalorians"/>
+            <frontierRules name="buyPursuer-Heavy-Squadron_Mandalorians"/>
+            <frontierRules name="buySpace-Transport_Mandalorians"/>
+            <frontierRules name="buyFleet-Carrier_Mandalorians"/>
+            <frontierRules name="buyCrusader-Corvette_Mandalorians"/>
+            <frontierRules name="buyFirestorm-Frigate_Mandalorians"/>
+            <frontierRules name="buyBeroya-Cruiser_Mandalorians"/>
+            <frontierRules name="buyKeldabe-Battleship_Mandalorians"/>
+            <frontierRules name="buyFactory_Mandalorians"/>
+            <frontierRules name="buyAnti-Air-Tower_Mandalorians"/>
+            <frontierRules name="buyFortification_Mandalorians"/>
+        </productionFrontier>
+        
+        <productionFrontier name="production_Pirates">
+            <frontierRules name="buySpace-Pirates_Pirates"/>
+            <frontierRules name="buyPirate-Starfighters_Pirates"/>
+            <frontierRules name="buyPirate-Ship_Pirates"/>
+            <frontierRules name="buyFactory_Pirates"/>
+        </productionFrontier>
+
+        <productionFrontier name="production_Tusken-Raiders">
+            <frontierRules name="buyTusken-Raider-Village_Tusken-Raiders"/>
+            <frontierRules name="buySand-People_Tusken-Raiders"/>
+        </productionFrontier>
+
+        <playerProduction player="Corporate-Sector-Authority" frontier="production_Corporate-Sector-Authority"/>
+        <playerProduction player="New-Republic" frontier="production_New-Republic"/>
+        <playerProduction player="Black-Sun" frontier="production_Black-Sun"/>
+        <playerProduction player="Jedi-Order" frontier="production_Jedi-Order"/>
+        <playerProduction player="Hutt-Cartel" frontier="production_Hutt-Cartel"/>
+        <playerProduction player="Corellian-Security-Force" frontier="production_Corellian-Security-Force"/>
+        <playerProduction player="Imperial-Remnant" frontier="production_Imperial-Remnant"/>
+        <playerProduction player="Mandalorians" frontier="production_Mandalorians"/>
+        <playerProduction player="Pirates" frontier="production_Pirates"/>
+        <playerProduction player="Tusken-Raiders" frontier="production_Tusken-Raiders"/>
+    </production>
+    
+    <technology>
+    </technology>
+
+    <attachmentList>
+        <attachment name="relationshipTypeAttachment" attachTo="Friendly" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
+            <option name="archeType" value="allied"/>
+        </attachment>
+        <attachment name="relationshipTypeAttachment" attachTo="Hostile" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
+            <option name="archeType" value="war"/>
+        </attachment>
+            
+        <attachment name="playerAttachment" attachTo="Imperial-Remnant" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+            <option name="retainCapitalProduceNumber" value="0"/>
+            <option name="retainCapitalNumber" value="1"/>
+        </attachment>
+        <attachment name="playerAttachment" attachTo="New-Republic" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+            <option name="retainCapitalProduceNumber" value="0"/>
+            <option name="retainCapitalNumber" value="1"/>
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Corporate-Sector-Authority" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+            <option name="retainCapitalProduceNumber" value="0"/>
+            <option name="retainCapitalNumber" value="1"/>
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Jedi-Order" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+            <option name="retainCapitalProduceNumber" value="0"/>
+            <option name="retainCapitalNumber" value="1"/>
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Hutt-Cartel" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+            <option name="retainCapitalProduceNumber" value="0"/>
+            <option name="retainCapitalNumber" value="1"/>
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Corellian-Security-Force" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+            <option name="retainCapitalProduceNumber" value="0"/>
+            <option name="retainCapitalNumber" value="1"/>
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Black-Sun" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+            <option name="retainCapitalProduceNumber" value="0"/>
+            <option name="retainCapitalNumber" value="1"/>
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Mandalorians" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+            <option name="retainCapitalProduceNumber" value="0"/>
+            <option name="retainCapitalNumber" value="1"/>
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Pirates" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+            <option name="retainCapitalProduceNumber" value="0"/>
+            <option name="retainCapitalNumber" value="1"/>
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Tusken-Raiders" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
+            <option name="retainCapitalProduceNumber" value="0"/>
+            <option name="retainCapitalNumber" value="1"/>
+        </attachment>
+
+        <attachment name="unitAttachment" attachTo="A-Wing-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="4"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="4"/>
+            <option name="airDefense" value="4"/>
+            <option name="movement" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="ARC170-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="4"/>
+            <option name="bombingBonus" value="6"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="3"/>
+            <option name="airDefense" value="3"/>
+            <option name="isStrategicBomber" value="true"/>
+            <option name="movement" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Acclamator-Assault-Ship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="canBombard" value="true"/>
+            <option name="carrierCapacity" value="5"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Action-Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+            <option name="transportCapacity" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Aethersprite-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="2"/>
+            <option name="airDefense" value="2"/>
+            <option name="movement" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Aggressor-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="5"/>
+            <option name="canBombard" value="true"/>
+            <option name="carrierCapacity" value="3"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="hitPoints" value="2"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Alderaanian-War-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Anti-Air-Tower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="isConstruction" value="true"/>
+            <option name="constructionType" value="Anti-Air-Tower"/>
+            <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
+            <option name="maxConstructionsPerTypePerTerr" value="1"/>
+            <option name="isAA" value="true"/>
+            <option name="movement" value="0"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Armor-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="4"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="1"/>
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Armored-Mercenaries" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="2"/>
+            <option name="movement" value="2"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Armored-Police-Units" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="2"/>
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Army-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Army-Troopers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Artillery-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Assassin-Droid" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Assault-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="defense" value="4"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Beroya-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="4"/>
+            <option name="canBombard" value="true"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Bothan-Assault-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="carrierCapacity" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Buccaneer-Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+            <option name="transportCapacity" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Bulk-Freighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+            <option name="transportCapacity" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Bulwark-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="5"/>
+            <option name="canBombard" value="true"/>
+            <option name="carrierCapacity" value="10"/>
+            <option name="defense" value="5"/>
+            <option name="isSea" value="true"/>
+            <option name="hitPoints" value="2"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="CC-9600-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="canBombard" value="true"/>
+            <option name="defense" value="4"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="5"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Calamari-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="4"/>
+            <option name="canBombard" value="true"/>
+            <option name="carrierCapacity" value="3"/>
+            <option name="defense" value="4"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="3"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Cargo-Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="4"/>
+            <option name="transportCapacity" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Carrack-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Charger-c70-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Combat-Speeder-Group" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="2"/>
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Container-Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="defense" value="1"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+            <option name="transportCapacity" value="3"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="CorSec-Officers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Corellian-Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+            <option name="transportCapacity" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Corellian-Gunship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Corellian-Heavy-Gunship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Corona-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="carrierCapacity" value="6"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Crusader-Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Cutlass-Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+            <option name="transportCapacity" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Dreadnaught-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="carrierCapacity" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="3"/>
+        </attachment>
+        <!-- <attachment name="unitAttachment" attachTo="Dunelizard-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="1"/>
+            <option name="airDefense" value="1"/>
+            <option name="movement" value="10"/>
+        </attachment> -->
+        <attachment name="unitAttachment" attachTo="Escort-Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="carrierCapacity" value="6"/>
+            <option name="defense" value="1"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Espo-Combat-Troopers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Espo-Repulsor-Units" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="2"/>
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Espo-Security-Officers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Espo-Walker-Units" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="1"/>
+            <option name="movement" value="2"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Etti-Patrol-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="isFactory" value="true"/>
+            <option name="movement" value="0"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Fire-kraken-Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="defense" value="1"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Firespray-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="2"/>
+            <option name="airDefense" value="2"/>
+            <option name="movement" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Firestorm-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+            <option name="transportCapacity" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Fleet-Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="carrierCapacity" value="4"/>
+            <option name="defense" value="1"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Fortification" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="isConstruction" value="true"/>
+            <option name="constructionType" value="Fortification"/>
+            <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
+            <option name="maxConstructionsPerTypePerTerr" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="hitPoints" value="2"/>
+            <option name="movement" value="0"/>
+            <option name="repairsUnits" value="1:Fortification"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Gamorrean-Guards" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Gladiator-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="3"/>
+            <option name="airDefense" value="3"/>
+            <option name="movement" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Gozanti-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="HLAF-500-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="bombingBonus" value="6"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="2"/>
+            <option name="airDefense" value="2"/>
+            <option name="isStrategicBomber" value="true"/>
+            <option name="movement" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Henchmen" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Hutt-Expedition" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="5"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="4"/>
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="IRD-Fighter-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="2"/>
+            <option name="airDefense" value="2"/>
+            <option name="movement" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Imperial-Star-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="5"/>
+            <option name="canBombard" value="true"/>
+            <option name="carrierCapacity" value="6"/>
+            <option name="defense" value="4"/>
+            <option name="isSea" value="true"/>
+            <option name="hitPoints" value="2"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="15"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Interceptor-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Invincible-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="canBombard" value="true"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="hitPoints" value="2"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="8"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Jedi-Knight" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="5"/>
+            <option name="defense" value="5"/>
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Keldabe-Battleship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="5"/>
+            <option name="canBombard" value="true"/>
+            <option name="carrierCapacity" value="2"/>
+            <option name="defense" value="4"/>
+            <option name="isSea" value="true"/>
+            <option name="hitPoints" value="2"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Kihraxz-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="3"/>
+            <option name="airDefense" value="3"/>
+            <option name="movement" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Kimogila-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="bombingBonus" value="6"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="1"/>
+            <option name="airDefense" value="1"/>
+            <option name="isStrategicBomber" value="true"/>
+            <option name="movement" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Krayt-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="4"/>
+            <option name="canBombard" value="true"/>
+            <option name="carrierCapacity" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="hitPoints" value="2"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="LAF-250-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="2"/>
+            <option name="airDefense" value="2"/>
+            <option name="movement" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Lancer-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Law-Enforcement-Droids" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Local-Criminals" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Mandalorian-Protectors" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="4"/>
+            <option name="defense" value="2"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Mandalorian-Warriors" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Marauder-Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="carrierCapacity" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Mercenaries" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Minstrel-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Mounted-Henchmen" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="1"/>
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Mynock-Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="carrierCapacity" value="4"/>
+            <option name="defense" value="1"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Nebulon-B-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="carrierCapacity" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="P-Fighter-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="3"/>
+            <option name="airDefense" value="3"/>
+            <option name="movement" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Pelta-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="3"/>
+            <option name="transportCapacity" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Proficient-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="4"/>
+            <option name="canBombard" value="true"/>
+            <option name="carrierCapacity" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="hitPoints" value="2"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Providence-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="4"/>
+            <option name="canBombard" value="true"/>
+            <option name="carrierCapacity" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="8"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Pursuer-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="bombingBonus" value="6"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="3"/>
+            <option name="airDefense" value="3"/>
+            <option name="isStrategicBomber" value="true"/>
+            <option name="movement" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Repulsor-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="2"/>
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Saboteur" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Scyk-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="2"/>
+            <option name="airDefense" value="2"/>
+            <option name="movement" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Space-Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="SpecForce-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="4"/>
+            <option name="defense" value="2"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="SpecOps-Officers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="defense" value="3"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Speeder-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="3"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="2"/>
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Star-Galleon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="7"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Stormtroopers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="4"/>
+            <option name="defense" value="2"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Strike-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="canBombard" value="true"/>
+            <option name="carrierCapacity" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="2"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Supa-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="4"/>
+            <option name="bombingBonus" value="6"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="2"/>
+            <option name="airDefense" value="2"/>
+            <option name="isStrategicBomber" value="true"/>
+            <option name="movement" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="TIE-Bomber-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="4"/>
+            <option name="bombingBonus" value="6"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="1"/>
+            <option name="airDefense" value="1"/>
+            <option name="isStrategicBomber" value="true"/>
+            <option name="movement" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="TIE-Fighter-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="2"/>
+            <option name="airDefense" value="2"/>
+            <option name="movement" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="TIE-Interceptor-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="2"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="3"/>
+            <option name="airDefense" value="3"/>
+            <option name="movement" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Tank-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="4"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="2"/>
+            <option name="movement" value="3"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Temple-Guards" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Temple-Security-Forces" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillerySupportable" value="true"/>
+            <option name="attack" value="2"/>
+            <option name="defense" value="2"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Toscan-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="bombingBonus" value="6"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="1"/>
+            <option name="airDefense" value="1"/>
+            <option name="isStrategicBomber" value="true"/>
+            <option name="movement" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Ubrikkian-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="canBombard" value="true"/>
+            <option name="carrierCapacity" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="3"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="V19-Torrent-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="2"/>
+            <option name="airDefense" value="2"/>
+            <option name="movement" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Vaksai-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="2"/>
+            <option name="airDefense" value="2"/>
+            <option name="movement" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Venator-Star-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="canBombard" value="true"/>
+            <option name="carrierCapacity" value="8"/>
+            <option name="defense" value="4"/>
+            <option name="isSea" value="true"/>
+            <option name="hitPoints" value="2"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Victory-Star-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="4"/>
+            <option name="canBombard" value="true"/>
+            <option name="carrierCapacity" value="2"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Walker-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="artillery" value="true"/>
+            <option name="attack" value="4"/>
+            <option name="canBlitz" value="true"/>
+            <option name="defense" value="1"/>
+            <option name="movement" value="2"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="X-Wing-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="3"/>
+            <option name="airDefense" value="3"/>
+            <option name="movement" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Y-Wing-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="4"/>
+            <option name="bombingBonus" value="6"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="1"/>
+            <option name="airDefense" value="1"/>
+            <option name="isStrategicBomber" value="true"/>
+            <option name="movement" value="10"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="YV-929-Armed-Freighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="1"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Pirate-Ship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="carrierCapacity" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Pirate-Starfighters" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="carrierCost" value="1"/>
+            <option name="defense" value="2"/>
+            <option name="isAir" value="true"/>
+            <option name="canIntercept" value="true"/>
+            <option name="canEscort" value="true"/>
+            <option name="canAirBattle" value="true"/>
+            <option name="airAttack" value="2"/>
+            <option name="airDefense" value="2"/>
+            <option name="movement" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Space-Pirates" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="3"/>
+            <option name="defense" value="3"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Tusken-Raider-Village" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="isFactory" value="true"/>
+            <option name="movement" value="0"/>
+            <option name="destroyedWhenCapturedFrom" value="Tusken-Raiders"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Sand-People" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isInfantry" value="true"/>
+            <option name="movement" value="1"/>
+            <option name="transportCost" value="1"/>
+        </attachment>
+
+        <attachment name="territoryAttachment" attachTo="Allon Settlement" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Anchorhead" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Arch Canyon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Arnthout" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="B-omarr Flats" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Badlands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bantha Burrows" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bantha Plains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bastion" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="55"/>
+            <option name="capital" value="Imperial-Remnant"/>
+            <option name="originalOwner" value="Imperial-Remnant"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Beggars Canyon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bens Mesa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bestine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="4"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Black Barrens" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Cheenee Rift" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Corellia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="55"/>
+            <option name="capital" value="Corellian-Security-Force"/>
+            <option name="originalOwner" value="Corellian-Security-Force"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Coruscant" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="55"/>
+            <option name="capital" value="New-Republic"/>
+            <option name="originalOwner" value="New-Republic"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Dannars Claim" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Desolation Canyons" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Douz Outpost" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="originalOwner" value="Imperial-Remnant"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Dry Seas" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Drydust Crescent" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Eastern Dune Sea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Eidolon Base" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="originalOwner" value="New-Republic"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Etti" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="55"/>
+            <option name="capital" value="Corporate-Sector-Authority"/>
+            <option name="originalOwner" value="Corporate-Sector-Authority"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Farm Lands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Fondor" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="55"/>
+            <option name="capital" value="Black-Sun"/>
+            <option name="originalOwner" value="Black-Sun"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Forbidden Pass" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Fort Tusken" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="originalOwner" value="Mandalorians"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Gafsa Canyon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Ghomrassen A" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Ghomrassen B" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Ghomrassen C" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Glass Mountain" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Grand Arena Flats" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Great Mesa Plateau" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Guermessa A" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Guermessa B" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Guermessa C" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Hidden Droid Factory" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="originalOwner" value="Corellian-Security-Force"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="High Ground" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Highland Basin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Hubba Heights" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Hutt Flats" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Hutt Palace" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="30"/>
+            <option name="capital" value="Hutt-Cartel"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Jawa Heights" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Jawa Mountain Fortress" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Jundland Wastes" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Junktown" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Krayt Graveyard" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Lost Ghorfas City" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Lowland Basin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mandalore" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="55"/>
+            <option name="capital" value="Mandalorians"/>
+            <option name="originalOwner" value="Mandalorians"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Metameur" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mos Eisley" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="originalOwner" value="Black-Sun"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mos Entha" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mos Espa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mos Gamos" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mos Ila" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mos Nytram" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mos Osnoe" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="originalOwner" value="Corporate-Sector-Authority"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mos Shuuta" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mos Taike" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mos Zabu" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mospic High Range" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Motesta" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="victoryCity" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Motesta Oasis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mushroom Mesa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Naboo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="55"/>
+            <option name="capital" value="Jedi-Order"/>
+            <option name="originalOwner" value="Jedi-Order"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Northern Dune Sea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Oasis South" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="originalOwner" value="Jedi-Order"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Old Caves" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Pika Oasis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Pirate Base" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+            <option name="capital" value="Pirates"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Pit of Carkoon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Ridge" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="isImpassable" value="true"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Sand People Enclave" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Southern Dune Sea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Southern Reach" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="The Wound" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+            <option name="capital" value="Tusken-Raiders"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Tosche Station" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Tusken Canyon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Tusken March" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Wayfar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="2"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Western Dune Sea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Xelric Draw" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+
+        <attachment name="supportAttachmentJedi-Knight" attachTo="Jedi-Knight" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+            <option name="unitType" value="Army-Troopers:Stormtroopers:Repulsor-Regiment:Walker-Regiment:TIE-Fighter-Squadron:TIE-Interceptor-Squadron:TIE-Bomber-Squadron:Army-Regiment:SpecForce-Regiment:Speeder-Regiment:Armor-Regiment:X-Wing-Squadron:A-Wing-Squadron:Y-Wing-Squadron:Espo-Security-Officers:Espo-Combat-Troopers:Espo-Walker-Units:Espo-Repulsor-Units:IRD-Fighter-Squadron:P-Fighter-Squadron:Toscan-Heavy-Squadron:Temple-Security-Forces:Combat-Speeder-Group:Temple-Guards:Aethersprite-Squadron:V19-Torrent-Squadron:ARC170-Heavy-Squadron:Henchmen:Mounted-Henchmen:Assassin-Droid:Gamorrean-Guards:Hutt-Expedition:Scyk-Squadron:Kimogila-Heavy-Squadron:Law-Enforcement-Droids:CorSec-Officers:SpecOps-Officers:Armored-Police-Units:LAF-250-Squadron:HLAF-500-Squadron:Local-Criminals:Saboteur:Mercenaries:Armored-Mercenaries:Kihraxz-Squadron:Vaksai-Squadron:Supa-Heavy-Squadron:Mandalorian-Warriors:Mandalorian-Protectors:Artillery-Regiment:Tank-Regiment:Gladiator-Squadron:Firespray-Squadron:Pursuer-Heavy-Squadron:Sand-People:Space-Pirates:Pirate-Starfighters:Fortification"/>
+            <option name="faction" value="allied"/>
+            <option name="side" value="offence:defence"/>
+            <option name="dice" value="strength"/>
+            <option name="bonus" value="1"/>
+            <option name="number" value="10"/>
+            <option name="bonusType" value="The-Force"/>
+            <option name="impArtTech" value="false"/>
+            <option name="players" value="Imperial-Remnant:New-Republic:Corporate-Sector-Authority:Jedi-Order:Hutt-Cartel:Corellian-Security-Force:Black-Sun:Mandalorians:Pirates:Tusken-Raiders"/>
+        </attachment>
+        <attachment name="supportAttachmentAssassin-Droid" attachTo="Assassin-Droid" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+            <option name="unitType" value="Army-Troopers:Stormtroopers:Repulsor-Regiment:Walker-Regiment:TIE-Fighter-Squadron:TIE-Interceptor-Squadron:TIE-Bomber-Squadron:Army-Regiment:SpecForce-Regiment:Speeder-Regiment:Armor-Regiment:X-Wing-Squadron:A-Wing-Squadron:Y-Wing-Squadron:Espo-Security-Officers:Espo-Combat-Troopers:Espo-Walker-Units:Espo-Repulsor-Units:IRD-Fighter-Squadron:P-Fighter-Squadron:Toscan-Heavy-Squadron:Temple-Security-Forces:Combat-Speeder-Group:Temple-Guards:Jedi-Knight:Aethersprite-Squadron:V19-Torrent-Squadron:ARC170-Heavy-Squadron:Henchmen:Mounted-Henchmen:Gamorrean-Guards:Hutt-Expedition:Scyk-Squadron:Kimogila-Heavy-Squadron:Law-Enforcement-Droids:CorSec-Officers:SpecOps-Officers:Armored-Police-Units:LAF-250-Squadron:HLAF-500-Squadron:Local-Criminals:Saboteur:Mercenaries:Armored-Mercenaries:Kihraxz-Squadron:Vaksai-Squadron:Supa-Heavy-Squadron:Mandalorian-Warriors:Mandalorian-Protectors:Artillery-Regiment:Tank-Regiment:Gladiator-Squadron:Firespray-Squadron:Pursuer-Heavy-Squadron:Sand-People:Space-Pirates:Pirate-Starfighters:Fortification"/>
+            <option name="faction" value="enemy"/>
+            <option name="side" value="offence"/>
+            <option name="dice" value="strength"/>
+            <option name="bonus" value="-3"/>
+            <option name="number" value="1"/>
+            <option name="bonusType" value="Assassination"/>
+            <option name="impArtTech" value="false"/>
+            <option name="players" value="Imperial-Remnant:New-Republic:Corporate-Sector-Authority:Jedi-Order:Hutt-Cartel:Corellian-Security-Force:Black-Sun:Mandalorians:Pirates:Tusken-Raiders"/>
+        </attachment>
+        <attachment name="supportAttachmentHutt-Expedition" attachTo="Hutt-Expedition" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+            <option name="unitType" value="Army-Troopers:Stormtroopers:Repulsor-Regiment:Walker-Regiment:TIE-Fighter-Squadron:TIE-Interceptor-Squadron:TIE-Bomber-Squadron:Army-Regiment:SpecForce-Regiment:Speeder-Regiment:Armor-Regiment:X-Wing-Squadron:A-Wing-Squadron:Y-Wing-Squadron:Espo-Security-Officers:Espo-Combat-Troopers:Espo-Walker-Units:Espo-Repulsor-Units:IRD-Fighter-Squadron:P-Fighter-Squadron:Toscan-Heavy-Squadron:Temple-Security-Forces:Combat-Speeder-Group:Temple-Guards:Jedi-Knight:Aethersprite-Squadron:V19-Torrent-Squadron:ARC170-Heavy-Squadron:Henchmen:Mounted-Henchmen:Assassin-Droid:Gamorrean-Guards:Scyk-Squadron:Kimogila-Heavy-Squadron:Law-Enforcement-Droids:CorSec-Officers:SpecOps-Officers:Armored-Police-Units:LAF-250-Squadron:HLAF-500-Squadron:Local-Criminals:Saboteur:Mercenaries:Armored-Mercenaries:Kihraxz-Squadron:Vaksai-Squadron:Supa-Heavy-Squadron:Mandalorian-Warriors:Mandalorian-Protectors:Artillery-Regiment:Tank-Regiment:Gladiator-Squadron:Firespray-Squadron:Pursuer-Heavy-Squadron:Sand-People:Space-Pirates:Pirate-Starfighters:Fortification"/>
+            <option name="faction" value="allied"/>
+            <option name="side" value="offence:defence"/>
+            <option name="dice" value="strength"/>
+            <option name="bonus" value="1"/>
+            <option name="number" value="5"/>
+            <option name="bonusType" value="Leadership"/>
+            <option name="impArtTech" value="false"/>
+            <option name="players" value="Imperial-Remnant:New-Republic:Corporate-Sector-Authority:Jedi-Order:Hutt-Cartel:Corellian-Security-Force:Black-Sun:Mandalorians:Pirates:Tusken-Raiders"/>
+        </attachment>
+        <attachment name="supportAttachmentSaboteur" attachTo="Saboteur" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+            <option name="unitType" value="Army-Troopers:Stormtroopers:Repulsor-Regiment:Walker-Regiment:TIE-Fighter-Squadron:TIE-Interceptor-Squadron:TIE-Bomber-Squadron:Army-Regiment:SpecForce-Regiment:Speeder-Regiment:Armor-Regiment:X-Wing-Squadron:A-Wing-Squadron:Y-Wing-Squadron:Espo-Security-Officers:Espo-Combat-Troopers:Espo-Walker-Units:Espo-Repulsor-Units:IRD-Fighter-Squadron:P-Fighter-Squadron:Toscan-Heavy-Squadron:Temple-Security-Forces:Combat-Speeder-Group:Temple-Guards:Jedi-Knight:Aethersprite-Squadron:V19-Torrent-Squadron:ARC170-Heavy-Squadron:Henchmen:Mounted-Henchmen:Assassin-Droid:Gamorrean-Guards:Hutt-Expedition:Scyk-Squadron:Kimogila-Heavy-Squadron:Law-Enforcement-Droids:CorSec-Officers:SpecOps-Officers:Armored-Police-Units:LAF-250-Squadron:HLAF-500-Squadron:Local-Criminals:Mercenaries:Armored-Mercenaries:Kihraxz-Squadron:Vaksai-Squadron:Supa-Heavy-Squadron:Mandalorian-Warriors:Mandalorian-Protectors:Artillery-Regiment:Tank-Regiment:Gladiator-Squadron:Firespray-Squadron:Pursuer-Heavy-Squadron:Sand-People:Space-Pirates:Pirate-Starfighters:Fortification"/>
+            <option name="faction" value="enemy"/>
+            <option name="side" value="offence"/>
+            <option name="dice" value="strength"/>
+            <option name="bonus" value="-1"/>
+            <option name="number" value="3"/>
+            <option name="bonusType" value="Sabotage"/>
+            <option name="impArtTech" value="false"/>
+            <option name="players" value="Imperial-Remnant:New-Republic:Corporate-Sector-Authority:Jedi-Order:Hutt-Cartel:Corellian-Security-Force:Black-Sun:Mandalorians:Pirates:Tusken-Raiders"/>
+        </attachment>
+    </attachmentList>
+
+    <initialize>
+        <ownerInitialize>
+            <territoryOwner territory="Bastion" owner="Imperial-Remnant"/>
+            <territoryOwner territory="Corellia" owner="Corellian-Security-Force"/>
+            <territoryOwner territory="Coruscant" owner="New-Republic"/>
+            <territoryOwner territory="Douz Outpost" owner="Imperial-Remnant"/>
+            <territoryOwner territory="Eidolon Base" owner="New-Republic"/>
+            <territoryOwner territory="Etti" owner="Corporate-Sector-Authority"/>
+            <territoryOwner territory="Fondor" owner="Black-Sun"/>
+            <territoryOwner territory="Fort Tusken" owner="Mandalorians"/>
+            <territoryOwner territory="Hidden Droid Factory" owner="Corellian-Security-Force"/>
+            <territoryOwner territory="Hutt Palace" owner="Hutt-Cartel"/>
+            <territoryOwner territory="Mandalore" owner="Mandalorians"/>
+            <territoryOwner territory="Mos Eisley" owner="Black-Sun"/>
+            <territoryOwner territory="Mos Osnoe" owner="Corporate-Sector-Authority"/>
+            <territoryOwner territory="Naboo" owner="Jedi-Order"/>
+            <territoryOwner territory="Oasis South" owner="Jedi-Order"/>
+            <territoryOwner territory="Pirate Base" owner="Pirates"/>
+            <territoryOwner territory="The Wound" owner="Tusken-Raiders"/>
+            <territoryOwner territory="Tusken March" owner="Tusken-Raiders"/>
+            <territoryOwner territory="Tusken Canyon" owner="Tusken-Raiders"/>
+            <territoryOwner territory="Sand People Enclave" owner="Tusken-Raiders"/>
+            <territoryOwner territory="Gafsa Canyon" owner="Tusken-Raiders"/>
+            <territoryOwner territory="Desolation Canyons" owner="Tusken-Raiders"/>
+            <territoryOwner territory="Beggars Canyon" owner="Tusken-Raiders"/>
+            <territoryOwner territory="Bantha Plains" owner="Tusken-Raiders"/>
+            <territoryOwner territory="Arch Canyon" owner="Tusken-Raiders"/>
+        </ownerInitialize>
+
+        <unitInitialize>
+            <unitPlacement unitType="Pirate-Ship" territory="4" quantity="2" owner="Pirates"/>
+            <unitPlacement unitType="Pirate-Starfighters" territory="4" quantity="1" owner="Pirates"/>
+            <unitPlacement unitType="Sand-People" territory="Arch Canyon" quantity="1" owner="Tusken-Raiders"/>
+            <unitPlacement unitType="Sand-People" territory="Bantha Plains" quantity="1" owner="Tusken-Raiders"/>
+            <unitPlacement unitType="Factory" territory="Bastion" quantity="1" owner="Imperial-Remnant"/>
+            <unitPlacement unitType="Anti-Air-Tower" territory="Bastion" quantity="1" owner="Imperial-Remnant"/>
+            <unitPlacement unitType="Fortification" territory="Bastion" quantity="1" owner="Imperial-Remnant"/>
+            <unitPlacement unitType="Sand-People" territory="Beggars Canyon" quantity="1" owner="Tusken-Raiders"/>
+            <unitPlacement unitType="Factory" territory="Corellia" quantity="1" owner="Corellian-Security-Force"/>
+            <unitPlacement unitType="Anti-Air-Tower" territory="Corellia" quantity="1" owner="Corellian-Security-Force"/>
+            <unitPlacement unitType="Fortification" territory="Corellia" quantity="1" owner="Corellian-Security-Force"/>
+            <unitPlacement unitType="Factory" territory="Coruscant" quantity="1" owner="New-Republic"/>
+            <unitPlacement unitType="Anti-Air-Tower" territory="Coruscant" quantity="1" owner="New-Republic"/>
+            <unitPlacement unitType="Fortification" territory="Coruscant" quantity="1" owner="New-Republic"/>
+            <unitPlacement unitType="Sand-People" territory="Desolation Canyons" quantity="1" owner="Tusken-Raiders"/>
+            <unitPlacement unitType="Army-Troopers" territory="Douz Outpost" quantity="1" owner="Imperial-Remnant"/>
+            <unitPlacement unitType="Factory" territory="Douz Outpost" quantity="1" owner="Imperial-Remnant"/>
+            <unitPlacement unitType="Fortification" territory="Douz Outpost" quantity="1" owner="Imperial-Remnant"/>
+            <unitPlacement unitType="Army-Regiment" territory="Eidolon Base" quantity="1" owner="New-Republic"/>
+            <unitPlacement unitType="Factory" territory="Eidolon Base" quantity="1" owner="New-Republic"/>
+            <unitPlacement unitType="Fortification" territory="Eidolon Base" quantity="1" owner="New-Republic"/>
+            <unitPlacement unitType="Factory" territory="Etti" quantity="1" owner="Corporate-Sector-Authority"/>
+            <unitPlacement unitType="Anti-Air-Tower" territory="Etti" quantity="1" owner="Corporate-Sector-Authority"/>
+            <unitPlacement unitType="Fortification" territory="Etti" quantity="1" owner="Corporate-Sector-Authority"/>
+            <unitPlacement unitType="Factory" territory="Fondor" quantity="1" owner="Black-Sun"/>
+            <unitPlacement unitType="Anti-Air-Tower" territory="Fondor" quantity="1" owner="Black-Sun"/>
+            <unitPlacement unitType="Fortification" territory="Fondor" quantity="1" owner="Black-Sun"/>
+            <unitPlacement unitType="Factory" territory="Fort Tusken" quantity="1" owner="Mandalorians"/>
+            <unitPlacement unitType="Mandalorian-Warriors" territory="Fort Tusken" quantity="1" owner="Mandalorians"/>
+            <unitPlacement unitType="Fortification" territory="Fort Tusken" quantity="1" owner="Mandalorians"/>
+            <unitPlacement unitType="Sand-People" territory="Gafsa Canyon" quantity="1" owner="Tusken-Raiders"/>
+            <unitPlacement unitType="SpecOps-Officers" territory="Hidden Droid Factory" quantity="1" owner="Corellian-Security-Force"/>
+            <unitPlacement unitType="Factory" territory="Hidden Droid Factory" quantity="1" owner="Corellian-Security-Force"/>
+            <unitPlacement unitType="Fortification" territory="Hidden Droid Factory" quantity="1" owner="Corellian-Security-Force"/>
+            <unitPlacement unitType="Gamorrean-Guards" territory="Hutt Palace" quantity="1" owner="Hutt-Cartel"/>
+            <unitPlacement unitType="Factory" territory="Hutt Palace" quantity="1" owner="Hutt-Cartel"/>
+            <unitPlacement unitType="Anti-Air-Tower" territory="Hutt Palace" quantity="1" owner="Hutt-Cartel"/>
+            <unitPlacement unitType="Fortification" territory="Hutt Palace" quantity="1" owner="Hutt-Cartel"/>
+            <unitPlacement unitType="Factory" territory="Mandalore" quantity="1" owner="Mandalorians"/>
+            <unitPlacement unitType="Anti-Air-Tower" territory="Mandalore" quantity="1" owner="Mandalorians"/>
+            <unitPlacement unitType="Fortification" territory="Mandalore" quantity="1" owner="Mandalorians"/>
+            <unitPlacement unitType="Mercenaries" territory="Mos Eisley" quantity="1" owner="Black-Sun"/>
+            <unitPlacement unitType="Factory" territory="Mos Eisley" quantity="1" owner="Black-Sun"/>
+            <unitPlacement unitType="Fortification" territory="Mos Eisley" quantity="1" owner="Black-Sun"/>
+            <unitPlacement unitType="Factory" territory="Mos Osnoe" quantity="1" owner="Corporate-Sector-Authority"/>
+            <unitPlacement unitType="Fortification" territory="Mos Osnoe" quantity="1" owner="Corporate-Sector-Authority"/>
+            <unitPlacement unitType="Espo-Combat-Troopers" territory="Mos Osnoe" quantity="1" owner="Corporate-Sector-Authority"/>
+            <unitPlacement unitType="Factory" territory="Naboo" quantity="1" owner="Jedi-Order"/>
+            <unitPlacement unitType="Anti-Air-Tower" territory="Naboo" quantity="1" owner="Jedi-Order"/>
+            <unitPlacement unitType="Fortification" territory="Naboo" quantity="1" owner="Jedi-Order"/>
+            <unitPlacement unitType="Temple-Security-Forces" territory="Oasis South" quantity="1" owner="Jedi-Order"/>
+            <unitPlacement unitType="Factory" territory="Oasis South" quantity="1" owner="Jedi-Order"/>
+            <unitPlacement unitType="Fortification" territory="Oasis South" quantity="1" owner="Jedi-Order"/>
+            <unitPlacement unitType="Factory" territory="Pirate Base" quantity="1" owner="Pirates"/>
+            <unitPlacement unitType="Space-Pirates" territory="Pirate Base" quantity="4" owner="Pirates"/>
+            <unitPlacement unitType="Pirate-Starfighters" territory="Pirate Base" quantity="2" owner="Pirates"/>
+            <unitPlacement unitType="Sand-People" territory="Sand People Enclave" quantity="1" owner="Tusken-Raiders"/>
+            <unitPlacement unitType="Tusken-Raider-Village" territory="The Wound" quantity="1" owner="Tusken-Raiders"/>
+            <unitPlacement unitType="Sand-People" territory="The Wound" quantity="6" owner="Tusken-Raiders"/>
+            <unitPlacement unitType="Sand-People" territory="Tusken Canyon" quantity="1" owner="Tusken-Raiders"/>
+            <unitPlacement unitType="Sand-People" territory="Tusken March" quantity="1" owner="Tusken-Raiders"/>
+        </unitInitialize>
+
+        <resourceInitialize>
+            <resourceGiven player="Corporate-Sector-Authority" resource="PUs" quantity="250"/>
+            <resourceGiven player="New-Republic" resource="PUs" quantity="250"/>
+            <resourceGiven player="Black-Sun" resource="PUs" quantity="250"/>
+            <resourceGiven player="Jedi-Order" resource="PUs" quantity="250"/>
+            <resourceGiven player="Hutt-Cartel" resource="PUs" quantity="125"/>
+            <resourceGiven player="Corellian-Security-Force" resource="PUs" quantity="250"/>
+            <resourceGiven player="Imperial-Remnant" resource="PUs" quantity="250"/>
+            <resourceGiven player="Mandalorians" resource="PUs" quantity="250"/>
+            <resourceGiven player="Pirates" resource="PUs" quantity="10"/>
+            <resourceGiven player="Tusken-Raiders" resource="PUs" quantity="10"/>
+        </resourceInitialize>
+
+        <relationshipInitialize>
+            <relationship type="Friendly" player1="New-Republic" player2="Jedi-Order" roundValue="1"/>
+            <relationship type="Friendly" player1="New-Republic" player2="Corellian-Security-Force" roundValue="1"/>
+            <relationship type="Friendly" player1="New-Republic" player2="Mandalorians" roundValue="1"/>
+            <relationship type="Friendly" player1="Jedi-Order" player2="Corellian-Security-Force" roundValue="1"/>
+            <relationship type="Friendly" player1="Jedi-Order" player2="Mandalorians" roundValue="1"/>
+            <relationship type="Friendly" player1="Corellian-Security-Force" player2="Mandalorians" roundValue="1"/>
+
+            <relationship type="Friendly" player1="Imperial-Remnant" player2="Corporate-Sector-Authority" roundValue="1"/>
+            <relationship type="Friendly" player1="Imperial-Remnant" player2="Black-Sun" roundValue="1"/>
+            <relationship type="Friendly" player1="Imperial-Remnant" player2="Hutt-Cartel" roundValue="1"/>
+            <relationship type="Friendly" player1="Corporate-Sector-Authority" player2="Hutt-Cartel" roundValue="1"/>
+            <relationship type="Friendly" player1="Corporate-Sector-Authority" player2="Black-Sun" roundValue="1"/>
+            <relationship type="Friendly" player1="Hutt-Cartel" player2="Black-Sun" roundValue="1"/>
+
+            <relationship type="Hostile" player1="New-Republic" player2="Imperial-Remnant" roundValue="1"/>
+            <relationship type="Hostile" player1="New-Republic" player2="Corporate-Sector-Authority" roundValue="1"/>
+            <relationship type="Hostile" player1="New-Republic" player2="Black-Sun" roundValue="1"/>
+            <relationship type="Hostile" player1="New-Republic" player2="Hutt-Cartel" roundValue="1"/>
+            <relationship type="Hostile" player1="Jedi-Order" player2="Imperial-Remnant" roundValue="1"/>
+            <relationship type="Hostile" player1="Jedi-Order" player2="Corporate-Sector-Authority" roundValue="1"/>
+            <relationship type="Hostile" player1="Jedi-Order" player2="Black-Sun" roundValue="1"/>
+            <relationship type="Hostile" player1="Jedi-Order" player2="Hutt-Cartel" roundValue="1"/>
+            <relationship type="Hostile" player1="Corellian-Security-Force" player2="Imperial-Remnant" roundValue="1"/>
+            <relationship type="Hostile" player1="Corellian-Security-Force" player2="Corporate-Sector-Authority" roundValue="1"/>
+            <relationship type="Hostile" player1="Corellian-Security-Force" player2="Black-Sun" roundValue="1"/>
+            <relationship type="Hostile" player1="Corellian-Security-Force" player2="Hutt-Cartel" roundValue="1"/>
+            <relationship type="Hostile" player1="Mandalorians" player2="Imperial-Remnant" roundValue="1"/>
+            <relationship type="Hostile" player1="Mandalorians" player2="Corporate-Sector-Authority" roundValue="1"/>
+            <relationship type="Hostile" player1="Mandalorians" player2="Black-Sun" roundValue="1"/>
+            <relationship type="Hostile" player1="Mandalorians" player2="Hutt-Cartel" roundValue="1"/>
+
+            <relationship type="Hostile" player1="New-Republic" player2="Pirates" roundValue="1"/>
+            <relationship type="Hostile" player1="Jedi-Order" player2="Pirates" roundValue="1"/>
+            <relationship type="Hostile" player1="Corellian-Security-Force" player2="Pirates" roundValue="1"/>
+            <relationship type="Hostile" player1="Mandalorians" player2="Pirates" roundValue="1"/>
+            <relationship type="Hostile" player1="New-Republic" player2="Tusken-Raiders" roundValue="1"/>
+            <relationship type="Hostile" player1="Jedi-Order" player2="Tusken-Raiders" roundValue="1"/>
+            <relationship type="Hostile" player1="Corellian-Security-Force" player2="Tusken-Raiders" roundValue="1"/>
+            <relationship type="Hostile" player1="Mandalorians" player2="Tusken-Raiders" roundValue="1"/>
+
+            <relationship type="Hostile" player1="Imperial-Remnant" player2="Pirates" roundValue="1"/>
+            <relationship type="Hostile" player1="Corporate-Sector-Authority" player2="Pirates" roundValue="1"/>
+            <relationship type="Hostile" player1="Black-Sun" player2="Pirates" roundValue="1"/>
+            <relationship type="Hostile" player1="Hutt-Cartel" player2="Pirates" roundValue="1"/>
+            <relationship type="Hostile" player1="Imperial-Remnant" player2="Tusken-Raiders" roundValue="1"/>
+            <relationship type="Hostile" player1="Corporate-Sector-Authority" player2="Tusken-Raiders" roundValue="1"/>
+            <relationship type="Hostile" player1="Black-Sun" player2="Tusken-Raiders" roundValue="1"/>
+            <relationship type="Hostile" player1="Hutt-Cartel" player2="Tusken-Raiders" roundValue="1"/>
+
+            <relationship type="Hostile" player1="Tusken-Raiders" player2="Pirates" roundValue="1"/>
+        </relationshipInitialize>
+    </initialize>
+
+    <propertyList>
+        <property name="Neutral Flyover Allowed" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="neutralCharge" value="0" editable="false">
+        </property>
+        <property name="notes">
+            <value>
+            <![CDATA[
+
+
+            
+<html>
+<body bgcolor="000000" align="left">
+<div style="padding:10px;"text-align:justify;">
+<br>
+<center><img src="starwars.png"/></center>
+<br><center><span style="font-size:16px;color:FFFF33;"></span><b><span style="font-size:14px;color:FFFF33;">TATOOINE WAR</span></b><span style="font-size:14px;color:FFFF33;"></span></center>
+<br><span style="font-size:14px;color:FFFF33;">War has broken out. The evil forces lead by the Imperial Remnant are slowly conquering every single planet in the galaxy. Even the harsh desert world of Tatooine is targeted for subjugation. But, the dark alliance of Imperials, corporate moguls and organized criminals are challenged by the forces of light. The New Republic, the Corellians, the Mandalorians and the Jedi Knights stand ready to fight for the freedom of Tatooine....</span>
+<br>
+<br>
+<br><b><span style="font-size:16px;color:CC6666;">Tips and rules:</span></b><br>
+<br><span style="font-size:14px;color:FFFFFF;">Conquer 10 out of 14 cities to win.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">This map has faction specific units. Hover the mouse cursor over enemy units and press the i button to examine stats.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Units do not need to be placed in the same round as they are bought.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Territories can only hold 1 Factory, 1 Fortification and 1 Anti-Air-Tower.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Many land units can give or receive support.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">The Black-Sun Saboteur and Hutt-Cartel Assassin-Droid units are only effective as attack units.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Each faction has two bombard capable ships.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Each faction has one 2-hit battleship.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">2-hit units and Fortifications are repaired at the beginning of player rounds.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">All spaceships with carrier capacity move 2.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Fighters are either short-range (4 move) or long-range (10 move).</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Strategic Bombardment done by heavy fighters can be escorted by other fighters.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Strategic Bombardment can be intercepted by defending fighters.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Interception air battles only last 1 round.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Space battles only last 5 rounds.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Land battles only last 5 rounds.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">This map works best with the setting View - Show Map Blends - Off.</span><br>
+<br>
+<br><b><span style="font-size:16px;color:CC6666;">Map by:</span></b><br>
+<br><span style="font-size:14px;color:FFFFFF;">Frostion</span><br>
+<br>
+<br><b><span style="font-size:16px;color:CC6666;">Thanks to:</span></b><br>
+<br><span style="font-size:14px;color:FFFFFF;">Veqryns Map and map skin making overview.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">The Pact of steel 2.xml (An advanced guide).</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Wisconsins TripleA Map Creator v2.0.0.2. (A very buggy and unfinished program.)</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">The creators and contributors of TripleA.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">The orginal Axis & Allies boardgame.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">And of course...</span>
+<br><span style="font-size:14px;color:FFFFFF;">George Lucas (For conjuring up Star Wars).</span><br>
+<br>
+<br><b><span style="font-size:16px;color:CC6666;">Note:</span></b>
+<br><span style="font-size:14px;color:FFFFFF;">Please feel free to use this map as basis for new Star Wars maps and mods. Frostion.</span><br>
+<br>
+<br>
+<center><img src="StarWarsTripleALogoSmall.png"/></center>
+<br>
+</html>
+
+            
+            
+            
+            
+            
+            
+            ]]>
+            </value>
+        </property>
+        <property name="Pirates bid" value="0" editable="false">
+        </property>
+        <property name="National Objectives" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="AA Territory Restricted" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Tusken-Raiders bid" value="0" editable="false">
+        </property>
+        <property name="Random AA Casualties" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Light-Side Total Victory VCs" value="10" editable="false">
+        </property>
+        <property name="Dark-Side Total Victory VCs" value="10" editable="false">
+        </property>
+        <property name="Corellian-Security-Force bid" value="0" editable="false">
+        </property>
+        <property name="Produce fighters on carriers" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Produce new fighters on old carriers" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Move existing fighters to new carriers" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Land existing fighters on new carriers" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Imperial-Remnant bid" value="0" editable="false">
+        </property>
+        <property name="Tech Development" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Unit Placement Per Territory Restricted" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="All Rockets Attack" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Production Per X Territories Restricted" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Limit SBR Damage Per Turn" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Hutt-Cartel bid" value="0" editable="false">
+        </property>
+        <property name="games.strategy.engine.pbem.PBEMMessagePoster" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="No Economic Victory" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="SBR Affects Unit Production" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Ignore Transport In Movement" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Air Battle Attackers Can Retreat" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Partial Amphibious Retreat" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Limit Rocket Damage Per Turn" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Continuous Research" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Rockets Can Fly Over Impassables" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="New-Republic bid" value="0" editable="false">
+        </property>
+        <property name="Attacker Retreat Planes" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Roll AA Individually" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Always on AA" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Limit SBR Damage To Factory Production" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Occupied Territories" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Mandalorians bid" value="0" editable="false">
+        </property>
+        <property name="Anniversary Edition Land Production" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Projection of Power" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Neutrals Are Impassable" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Selectable Tech Roll" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Placement Restricted By Factory" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Allied Air Independent" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Raids May Be Preceeded By Air Battles" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="maxFactoriesPerTerritory" value="1" editable="false">
+        </property>
+        <property name="Submersible Subs" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Multiple AA Per Territory" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Naval Bombard Casualties Return Fire" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Corporate-Sector-Authority bid" value="0" editable="false">
+        </property>
+        <property name="Shore Bombard Per Ground Unit Restricted" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Unit Placement In Enemy Seas" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Total Victory" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="mapName" value="star_wars_tatooine_war" editable="false">
+            <string/>
+        </property>
+        <property name="Honorable Surrender" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Battles May Be Preceeded By Air Battles" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Units Repair Hits End Turn" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="AA50 Tech Model" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Units Repair Hits Start Turn" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Air Battle Defenders Can Retreat" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Anniversary Edition Air Naval" value="false" editable="false">
+            <boolean/>
+        </property>
+        <property name="Territory Turn Limit" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Two hit battleship" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Jedi-Order bid" value="0" editable="false">
+        </property>
+        <property name="Transport Restricted Unload" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Black-Sun bid" value="0" editable="false">
+        </property>
+        <property name="Transport Control Sea Zone" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Surviving Air Move To Land" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Use Bombing Max Dice Sides And Bonus" value="true" editable="false">
+            <boolean/>
+	</property>
+        <property name="Use Triggers" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Units Can Be Changed On Capture" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Unplaced units live when not placed" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Units Can Be Destroyed Instead Of Captured" value="true" editable="false">
+            <boolean/>
+        </property>
+        <property name="Low Luck" value="false" editable="true">
+            <boolean/>
+        </property>
+        <property name="Land Battle Rounds" value="5" editable="false">
+        </property>
+        <property name="Sea Battle Rounds" value="5" editable="false">
+        </property>
+        <property name="Air Battle Rounds" value="1" editable="false">
+        </property>
+    </propertyList>
+
+</game>

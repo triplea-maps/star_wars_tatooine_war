@@ -1,0 +1,8 @@
+Bastion  (132,1810)
+Corellia  (558,2748)
+Coruscant  (4787,782)
+Etti  (4218,300)
+Fondor  (4783,1987)
+Mandalore  (130,802)
+Naboo  (4347,2745)
+Hutt Palace  (2221,2575)
