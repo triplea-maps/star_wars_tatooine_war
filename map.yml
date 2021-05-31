@@ -1,0 +1,5 @@
+map_name: star_wars_tatooine_war
+games:
+- {game_name: 'Star Wars: Tatooine War (4 teams)', file_name: star_wars_tatooine_war_4teams.xml}
+- {game_name: 'Star Wars: Tatooine War', file_name: star_wars_tatooine_war.xml}
+- {game_name: 'Star Wars: Tatooine War (FFA)', file_name: star_wars_tatooine_war_FFA.xml}
